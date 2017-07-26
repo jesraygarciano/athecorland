@@ -1,0 +1,54 @@
+body{
+  #full-blog-header{
+    padding-top: 5rem;
+    .container{
+      .jumbotron {
+        padding: 2rem;
+        text-align: center;
+        background-color: transparent;
+        h2{
+          font: 800 3em 'Raleway';
+          color: $green;
+        }
+        hr{
+          margin: 2rem auto 0 auto;
+          width: 100px;
+          height: 3px;
+          background-color: $green;
+        }
+      }
+    }
+  }
+
+  #full-blog-container{
+    .container{
+      .row{
+        .col-md-8{
+          .wp-pagenavi {
+            text-align:center;
+            clear: both;
+            margin-top: 10px;
+            margin-bottom: 40px;
+          }
+          .wp-pagenavi a, .wp-pagenavi span {
+            color: #FFF;
+            text-decoration: none;
+            background-color:$green;
+            border: none;
+            padding: 5px 10px;
+            margin: 2px;
+          }
+          .wp-pagenavi a:hover, .wp-pagenavi span.current {
+            border-color: $white;
+            background-color: $orange;
+          }
+          .wp-pagenavi span.current {
+            font-weight: bold;
+            background-color: $orange;
+          }
+
+        }
+      }
+    }
+  }
+}

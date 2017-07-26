@@ -1,0 +1,3264 @@
+/*
+Theme Name: Transcend
+Theme URI: http://www.hoolma.com
+Author: Team Hoolma
+Author URI: http://www.hoolma.com/
+Description: Blog, CRM ready, real estate, mobile responsive
+Version: 1.0
+Tags: green, black, orange, mobile responsive, crm ready
+Text Domain: transcend
+
+The theme is created by Hoolma Tech Solutions,  an online marketing agency based in Cebu.
+*/
+/* line 5, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, sass/_header.scss */
+body header #nav-main {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+/* line 6, sass/_header.scss */
+body header #nav-main #top-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 10, sass/_header.scss */
+body header #nav-main #top-nav .btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px !important;
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(0, 178, 115, 0.81);
+  border: none;
+}
+/* line 18, sass/_header.scss */
+body header #nav-main #top-nav .btn div {
+  text-align: center;
+  margin-top: -6px;
+  display: inline-block;
+}
+/* line 23, sass/_header.scss */
+body header #nav-main #top-nav .btn .carousel-control-next-icon {
+  margin: 0 -18px -10px 9px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-image: url(img/arrow-next-icon.png);
+}
+/* line 31, sass/_header.scss */
+body header #nav-main #top-nav .btn:hover {
+  background-color: #008853;
+}
+/* line 34, sass/_header.scss */
+body header #nav-main #top-nav #call-text {
+  margin: 0 2rem;
+  display: inline-block;
+  font: 600 1.25em 'Poppins';
+}
+/* line 38, sass/_header.scss */
+body header #nav-main #top-nav #call-text a {
+  text-decoration: none;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 42, sass/_header.scss */
+body header #nav-main #top-nav #call-text a:hover {
+  color: #008853;
+}
+/* line 46, sass/_header.scss */
+body header #nav-main #top-nav i {
+  display: none;
+}
+/* line 50, sass/_header.scss */
+body header #nav-main .navbar-toggler {
+  top: 1.25rem;
+}
+/* line 54, sass/_header.scss */
+body header #nav-main .navbar-brand img {
+  height: auto;
+  width: 200px;
+}
+/* line 62, sass/_header.scss */
+body header #nav-main div div .navbar-nav {
+  margin-top: 20px;
+  font: 500 1.15rem 'Poppins';
+}
+/* line 65, sass/_header.scss */
+body header #nav-main div div .navbar-nav .separator-border {
+  border-right: 1px solid #2b2b2b;
+}
+/* line 68, sass/_header.scss */
+body header #nav-main div div .navbar-nav .nav-item {
+  padding: 0 1.5em;
+}
+/* line 70, sass/_header.scss */
+body header #nav-main div div .navbar-nav .nav-item a {
+  color: #2b2b2b;
+}
+/* line 73, sass/_header.scss */
+body header #nav-main div div .navbar-nav .nav-item a:hover {
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 76, sass/_header.scss */
+body header #nav-main div div .navbar-nav .nav-item .nav-link {
+  padding: 0;
+}
+
+/* line 2, sass/_footer.scss */
+body footer {
+  padding: 2rem 0 4rem 0;
+  background-color: #ffffff;
+}
+/* line 6, sass/_footer.scss */
+body footer .col-md-6 .footer-logo {
+  height: auto;
+  width: 200px;
+  margin: 2rem 0;
+}
+/* line 14, sass/_footer.scss */
+body footer .col-md-3 h3 {
+  font: 300 2em 'Poppins';
+  color: rgba(0, 178, 115, 0.81);
+  margin: 2rem 0;
+}
+/* line 21, sass/_footer.scss */
+body footer .col-md-3 ul li a {
+  text-decoration: none;
+  color: #7f7f7f;
+  font: 500 1.5em 'Poppins';
+}
+/* line 26, sass/_footer.scss */
+body footer .col-md-3 ul li a:hover {
+  color: #008853;
+}
+
+/* line 1, sass/_index.scss */
+body {
+  /*START OF CAROUSEL*/
+  /*END OF CAROUSEL*/
+  /*START OF CONTENT*/
+  /*------------------------ PROJECTS -------------------------*/
+  /*------------------------ END OF PROJECTS -------------------------*/
+  /*------------------------ START OF BLOG -------------------------*/
+  /*------------------------ END OF BLOG -------------------------*/
+  /*------------------------ START OF TESTIMONIAL -------------------------*/
+  /*------------------------ END OF TESTIMONIAL -------------------------*/
+  /*------------------------ START OF SUBDIVISION -------------------------*/
+  /*------------------------ END OF SUBDIVISION -------------------------*/
+}
+/* line 3, sass/_index.scss */
+body #myCarousel {
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+}
+/* line 4, sass/_index.scss */
+body #myCarousel .carousel {
+  margin-bottom: 4rem;
+}
+/* line 8, sass/_index.scss */
+body #myCarousel .carousel-caption {
+  z-index: 10;
+  bottom: 2rem;
+}
+/* line 11, sass/_index.scss */
+body #myCarousel .carousel-caption a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 14, sass/_index.scss */
+body #myCarousel .carousel-caption a h2 {
+  font: 500 5em 'Poppins';
+  margin: -2rem 0;
+}
+/* line 18, sass/_index.scss */
+body #myCarousel .carousel-caption a h3 {
+  font: 500 3.5em 'Poppins';
+}
+/* line 22, sass/_index.scss */
+body #myCarousel .carousel-caption a:hover {
+  color: #d8ffff;
+  transition: 0.2s;
+}
+/* line 27, sass/_index.scss */
+body #myCarousel .carousel-subtext {
+  margin: 1rem auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+/* line 33, sass/_index.scss */
+body #myCarousel .carousel-item {
+  height: 45rem;
+  background-color: #777;
+}
+/* line 37, sass/_index.scss */
+body #myCarousel .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 45rem;
+}
+/* line 45, sass/_index.scss */
+body #myCarousel .page-btn .btn {
+  margin: 0 0.5rem;
+  font-size: 1em;
+  background-color: rgba(0, 178, 115, 0.81);
+  opacity: 0.9;
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+}
+/* line 55, sass/_index.scss */
+body #myCarousel .page-btn2 .btn {
+  margin: 0 0.5rem;
+  font-size: 1em;
+  background-color: #ffffff;
+  opacity: 0.9;
+  color: rgba(0, 178, 115, 0.81);
+  padding: 1rem 1.5rem;
+}
+/* line 65, sass/_index.scss */
+body #myCarousel .page-btn:hover .btn {
+  background-color: #008853;
+}
+/* line 70, sass/_index.scss */
+body #myCarousel .page-btn2:hover .btn {
+  background-color: #d3d3d3;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 75, sass/_index.scss */
+body #myCarousel .carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(img/next-control.png);
+}
+/* line 80, sass/_index.scss */
+body #myCarousel .carousel-control-prev-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(img/prev-control.png);
+}
+/* line 89, sass/_index.scss */
+body hr {
+  margin: 2rem auto;
+  width: 100px;
+  height: 3px;
+  background-color: rgba(0, 178, 115, 0.81);
+}
+/* line 95, sass/_index.scss */
+body .division-title, body #content-container .container .jumbotron h2, body #blog-container h2, body #testimonials h2, body #about-testimonials h2, #about-testimonials body h2 {
+  text-align: center;
+  font: 800 3em 'Raleway';
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 102, sass/_index.scss */
+body #content-container .container .jumbotron {
+  padding: 2rem;
+  text-align: center;
+  background-color: transparent;
+}
+/* line 109, sass/_index.scss */
+body #content-container .container .jumbotron .btn {
+  background-color: rgba(0, 178, 115, 0.81);
+  margin: 1rem auto;
+  border-radius: 0;
+  padding: 1rem;
+  font-size: 21px;
+}
+/* line 116, sass/_index.scss */
+body #content-container .container .jumbotron .btn:hover {
+  background-color: #008853;
+}
+/* line 126, sass/_index.scss */
+body #projects-container .project-container {
+  width: 100%;
+  position: relative;
+}
+/* line 130, sass/_index.scss */
+body #projects-container .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* line 135, sass/_index.scss */
+body #projects-container .overlay-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  transition: .5s ease;
+}
+/* line 143, sass/_index.scss */
+body #projects-container .overlay-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  transition: .5s ease;
+}
+/* line 151, sass/_index.scss */
+body #projects-container .bg-blue {
+  background-color: rgba(35, 178, 203, 0.8);
+}
+/* line 154, sass/_index.scss */
+body #projects-container .bg-orange {
+  background-color: rgba(244, 82, 44, 0.81);
+}
+/* line 157, sass/_index.scss */
+body #projects-container .bg-green {
+  background-color: rgba(0, 178, 115, 0.81);
+}
+/* line 160, sass/_index.scss */
+body #projects-container .text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* line 167, sass/_index.scss */
+body #projects-container .text h3 {
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 700;
+}
+/* line 171, sass/_index.scss */
+body #projects-container .text h3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 175, sass/_index.scss */
+body #projects-container .text h3 a:hover {
+  color: #d3d3d3;
+}
+/* line 179, sass/_index.scss */
+body #projects-container .text .project-desc {
+  margin-top: 0.5rem;
+}
+/* line 182, sass/_index.scss */
+body #projects-container .text .project-btn {
+  margin-top: 1rem;
+}
+/* line 185, sass/_index.scss */
+body #projects-container .text .btn {
+  background-color: #d3d3d3;
+  color: #2b2b2b;
+  border-radius: 0;
+}
+/* line 190, sass/_index.scss */
+body #projects-container .text .btn:hover {
+  background-color: #7f7f7f;
+}
+/* line 199, sass/_index.scss */
+body #blog-container h2 {
+  margin-top: 2rem;
+}
+/* line 204, sass/_index.scss */
+body #blog-container .container #main-post {
+  margin: 3rem auto;
+}
+/* line 209, sass/_index.scss */
+body #blog-container .container .row h2 a {
+  text-decoration: none;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 212, sass/_index.scss */
+body #blog-container .container .row h2 a:hover {
+  color: #008853;
+}
+/* line 217, sass/_index.scss */
+body #blog-container .container .row .blog-author {
+  vertical-align: top;
+  color: rgba(0, 178, 115, 0.81);
+  margin-top: 1rem;
+  font: 500 1em 'Poppins';
+}
+/* line 222, sass/_index.scss */
+body #blog-container .container .row .blog-author a {
+  text-decoration: none;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 226, sass/_index.scss */
+body #blog-container .container .row .blog-author a:hover {
+  color: #008853;
+}
+/* line 231, sass/_index.scss */
+body #blog-container .container .row .col-md-7 h2 {
+  color: #2b2b2b;
+  font: 500 3em 'Poppins';
+}
+/* line 235, sass/_index.scss */
+body #blog-container .container .row .col-md-7 p {
+  font-size: 1em;
+}
+/* line 238, sass/_index.scss */
+body #blog-container .container .row .col-md-7 .btn {
+  margin: 1rem auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 178, 115, 0.81);
+  padding: 0.5rem;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 245, sass/_index.scss */
+body #blog-container .container .row .col-md-7 .btn:hover {
+  background-color: rgba(0, 178, 115, 0.81);
+  color: #ffffff;
+}
+/* line 251, sass/_index.scss */
+body #blog-container .container .row .col-md-4 h2 {
+  color: #2b2b2b;
+  font: 500 2em 'Poppins';
+  margin: 0.1rem 0;
+}
+/* line 256, sass/_index.scss */
+body #blog-container .container .row .col-md-4 p {
+  font-size: 0.75em;
+}
+/* line 259, sass/_index.scss */
+body #blog-container .container .row .col-md-4 .btn {
+  margin: 1rem auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 178, 115, 0.81);
+  padding: 0.5rem;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 266, sass/_index.scss */
+body #blog-container .container .row .col-md-4 .btn:hover {
+  background-color: rgba(0, 178, 115, 0.81);
+  color: #ffffff;
+}
+/* line 273, sass/_index.scss */
+body #blog-container .blog-img {
+  height: auto;
+  width: 100%;
+}
+/* line 281, sass/_index.scss */
+body #testimonials {
+  text-align: center;
+}
+/* line 283, sass/_index.scss */
+body #testimonials #testimonial-carousel {
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+}
+/* line 284, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel {
+  margin-bottom: 4rem;
+}
+/* line 288, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-caption {
+  z-index: 10;
+  bottom: 2rem;
+}
+/* line 291, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-caption a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 294, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-caption a h2 {
+  font: 500 5em 'Poppins';
+  margin: -2rem 0;
+}
+/* line 298, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-caption a h3 {
+  font: 500 3.5em 'Poppins';
+}
+/* line 302, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-caption a:hover {
+  color: #d8ffff;
+  transition: 0.2s;
+}
+/* line 307, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-subtext {
+  margin: 1rem auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+/* line 313, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-item {
+  height: 27rem;
+  background-color: #777;
+}
+/* line 317, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 27rem;
+  opacity: 0.1;
+}
+/* line 325, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(img/next-control.png);
+}
+/* line 330, sass/_index.scss */
+body #testimonials #testimonial-carousel .carousel-control-prev-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(img/prev-control.png);
+}
+/* line 336, sass/_index.scss */
+body #testimonials h2 {
+  margin-top: 2rem;
+}
+/* line 340, sass/_index.scss */
+body #testimonials p {
+  font-size: 1em;
+  margin-bottom: 2rem;
+}
+/* line 344, sass/_index.scss */
+body #testimonials .fill {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* line 348, sass/_index.scss */
+body #testimonials .fill .testimony-author {
+  position: absolute;
+  width: 80%;
+  bottom: -25rem;
+  left: 15%;
+}
+/* line 353, sass/_index.scss */
+body #testimonials .fill .testimony-author .text-right .text-left {
+  position: relative;
+}
+/* line 356, sass/_index.scss */
+body #testimonials .fill .testimony-author .center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  font-size: 1rem;
+}
+/* line 363, sass/_index.scss */
+body #testimonials .fill .testimony-author h3 {
+  font: 500 2em 'Poppins';
+  line-height: 1em;
+}
+/* line 367, sass/_index.scss */
+body #testimonials .fill .testimony-author p {
+  margin-bottom: 0;
+}
+/* line 370, sass/_index.scss */
+body #testimonials .fill .testimony-author img {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+/* line 377, sass/_index.scss */
+body #testimonials .fill .speech-bubble {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 178, 115, 0.81);
+  border-radius: 0;
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  font-style: italic;
+  font-size: 1.25em;
+  color: #7f7f7f;
+  left: 15%;
+  top: 2rem;
+}
+/* line 392, sass/_index.scss */
+body #testimonials .fill .speech-bubble .arrow {
+  border-style: solid;
+  position: absolute;
+}
+/* line 397, sass/_index.scss */
+body #testimonials .fill .bottom {
+  border-color: rgba(0, 178, 115, 0.81) transparent transparent transparent;
+  border-width: 25px 25px 0 25px;
+  bottom: -25px;
+  left: 48%;
+}
+/* line 404, sass/_index.scss */
+body #testimonials .fill .bottom:after {
+  border-color: #ffffff transparent transparent transparent;
+  border-style: solid;
+  border-width: 24px 24px 0 24px;
+  bottom: 1px;
+  content: "";
+  position: absolute;
+  left: -24px;
+}
+/* line 419, sass/_index.scss */
+body #subdivision #subdivision-title {
+  position: relative;
+  background-image: url("../img/featured_img.jpg");
+  height: 38rem;
+}
+/* line 424, sass/_index.scss */
+body #subdivision #subdivision-title .sub-content {
+  position: absolute;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 433, sass/_index.scss */
+body #subdivision #subdivision-title .sub-content h2 {
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 0.5em;
+}
+/* line 438, sass/_index.scss */
+body #subdivision #subdivision-title .sub-content .sub-address {
+  font-size: 1.5em;
+}
+/* line 441, sass/_index.scss */
+body #subdivision #subdivision-title .sub-content .sub-text {
+  margin-top: 1.5rem;
+  font-size: 1em;
+}
+/* line 450, sass/_index.scss */
+body .parallax, body #subdivision #subdivision-title {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 2, sass/_blog.scss */
+body #full-blog-header {
+  padding-top: 5rem;
+}
+/* line 5, sass/_blog.scss */
+body #full-blog-header .container .jumbotron {
+  padding: 2rem;
+  text-align: center;
+  background-color: transparent;
+}
+/* line 9, sass/_blog.scss */
+body #full-blog-header .container .jumbotron h2 {
+  font: 800 3em 'Raleway';
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 13, sass/_blog.scss */
+body #full-blog-header .container .jumbotron hr {
+  margin: 2rem auto 0 auto;
+  width: 100px;
+  height: 3px;
+  background-color: rgba(0, 178, 115, 0.81);
+}
+/* line 27, sass/_blog.scss */
+body #full-blog-container .container .row .col-md-8 .wp-pagenavi {
+  text-align: center;
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+/* line 33, sass/_blog.scss */
+body #full-blog-container .container .row .col-md-8 .wp-pagenavi a, body #full-blog-container .container .row .col-md-8 .wp-pagenavi span {
+  color: #FFF;
+  text-decoration: none;
+  background-color: rgba(0, 178, 115, 0.81);
+  border: none;
+  padding: 5px 10px;
+  margin: 2px;
+}
+/* line 41, sass/_blog.scss */
+body #full-blog-container .container .row .col-md-8 .wp-pagenavi a:hover, body #full-blog-container .container .row .col-md-8 .wp-pagenavi span.current {
+  border-color: #ffffff;
+  background-color: rgba(244, 82, 44, 0.81);
+}
+/* line 45, sass/_blog.scss */
+body #full-blog-container .container .row .col-md-8 .wp-pagenavi span.current {
+  font-weight: bold;
+  background-color: rgba(244, 82, 44, 0.81);
+}
+
+/* line 2, sass/_projects.scss */
+body #proj-header {
+  padding-top: 8rem;
+}
+/* line 5, sass/_projects.scss */
+body #proj-header .container .jumbotron {
+  padding: 2rem;
+  text-align: center;
+  background-color: transparent;
+}
+/* line 9, sass/_projects.scss */
+body #proj-header .container .jumbotron h2 {
+  font: 800 3em 'Raleway';
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 13, sass/_projects.scss */
+body #proj-header .container .jumbotron hr {
+  margin: 2rem auto;
+  width: 100px;
+  height: 3px;
+  background-color: rgba(0, 178, 115, 0.81);
+}
+/* line 19, sass/_projects.scss */
+body #proj-header .container .jumbotron .btn {
+  background-color: rgba(0, 178, 115, 0.81);
+  margin: 1rem auto;
+  border-radius: 0;
+  padding: 1rem;
+  font-size: 21px;
+}
+/* line 26, sass/_projects.scss */
+body #proj-header .container .jumbotron .btn:hover {
+  background-color: #008853;
+}
+/* line 34, sass/_projects.scss */
+body #proj-container .container {
+  margin: 0 auto;
+}
+/* line 36, sass/_projects.scss */
+body #proj-container .container h2 {
+  margin-top: 2rem;
+  font: 700 2.5em 'Raleway';
+  color: #008853;
+  text-align: center;
+}
+/* line 43, sass/_projects.scss */
+body #proj-container .container .row .col-md-5 {
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* line 46, sass/_projects.scss */
+body #proj-container .container .row .col-md-5 h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #7f7f7f;
+  font: 400 1.3em 'Poppins';
+  margin: 0.1rem 0;
+}
+/* line 53, sass/_projects.scss */
+body #proj-container .container .row .col-md-5 p {
+  font-size: 0.75em;
+}
+/* line 56, sass/_projects.scss */
+body #proj-container .container .row .col-md-5 .btn {
+  margin: 2rem auto 2rem auto;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 178, 115, 0.81);
+  padding: 0.5rem;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 63, sass/_projects.scss */
+body #proj-container .container .row .col-md-5 .btn:hover {
+  background-color: rgba(0, 178, 115, 0.81);
+  color: #ffffff;
+}
+/* line 70, sass/_projects.scss */
+body #proj-container .blog-img {
+  height: auto;
+  width: 100%;
+}
+/* line 74, sass/_projects.scss */
+body #proj-container .proj-logo {
+  height: auto;
+  width: 100%;
+}
+
+/* line 1, sass/_about.scss */
+#about-hero {
+  padding-top: 15rem;
+  background-image: url(img/profile_first_photo.jpg);
+  height: 35rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+/* line 10, sass/_about.scss */
+#about-hero .container .jumbotron {
+  padding: 2rem;
+  text-align: center;
+  background-color: transparent;
+}
+/* line 14, sass/_about.scss */
+#about-hero .container .jumbotron h2 {
+  font: 700 3rem 'Raleway';
+  color: #ffffff;
+}
+/* line 17, sass/_about.scss */
+#about-hero .container .jumbotron h2 span {
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 21, sass/_about.scss */
+#about-hero .container .jumbotron #about-sub-tt {
+  padding-top: 2.5rem;
+}
+/* line 23, sass/_about.scss */
+#about-hero .container .jumbotron #about-sub-tt #tt-left {
+  text-align: left;
+  padding-top: 1.5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font: 500 2em 'Raleway', sans-serif;
+}
+/* line 30, sass/_about.scss */
+#about-hero .container .jumbotron #about-sub-tt #tt-right {
+  padding-top: 2.5rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  font: 500 2em 'Raleway', sans-serif;
+}
+
+/* line 42, sass/_about.scss */
+#about-container .container-fluid .container {
+  padding: 2rem;
+  background-color: transparent;
+}
+/* line 45, sass/_about.scss */
+#about-container .container-fluid .container h2 {
+  font: 800 2em 'Raleway';
+  color: #008853;
+}
+/* line 49, sass/_about.scss */
+#about-container .container-fluid .container hr {
+  margin: 1rem 0 2rem 0;
+  width: 100px;
+  height: 2px;
+  background-color: #7f7f7f;
+}
+/* line 55, sass/_about.scss */
+#about-container .container-fluid .container .about-p-content {
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+/* line 59, sass/_about.scss */
+#about-container .container-fluid .container .about-p-content-2 {
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+
+/* line 66, sass/_about.scss */
+#about-mission-vision {
+  background-image: url(img/mission-vision.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+/* line 74, sass/_about.scss */
+#about-mission-vision .container .row .col-md-5 {
+  margin: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* line 77, sass/_about.scss */
+#about-mission-vision .container .row .col-md-5 h2 {
+  margin-top: 1rem;
+  font: 700 2.5em 'Raleway';
+  color: #008853;
+}
+/* line 82, sass/_about.scss */
+#about-mission-vision .container .row .col-md-5 hr {
+  margin: .5rem auto 0 auto;
+  width: 50px;
+  height: 1px;
+  background-color: rgba(0, 178, 115, 0.81);
+}
+/* line 88, sass/_about.scss */
+#about-mission-vision .container .row .col-md-5 p {
+  font: 500 1em 'Raleway';
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  line-height: 2rem;
+}
+
+/* line 101, sass/_about.scss */
+#about-core-val .container h2 {
+  margin-top: 1.5rem;
+  font: 800 2em 'Raleway';
+  color: #008853;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* line 108, sass/_about.scss */
+#about-core-val .container hr {
+  margin: .5rem auto 2rem auto;
+  width: 70px;
+  height: 2px;
+  background-color: #7f7f7f;
+}
+/* line 116, sass/_about.scss */
+#about-core-val .container .row .col-md-6 h2 {
+  font: 600 1.5em 'Raleway';
+  color: #7f7f7f;
+}
+/* line 120, sass/_about.scss */
+#about-core-val .container .row .col-md-6 p {
+  padding: 1rem 0;
+  color: #7f7f7f;
+}
+
+/*------------------------ START OF TESTIMONIAL -------------------------*/
+/* line 129, sass/_about.scss */
+#about-testimonials {
+  text-align: center;
+  background-color: rgba(0, 178, 115, 0.81);
+}
+/* line 133, sass/_about.scss */
+#about-testimonials .container h2 {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  font: 800 2em 'Raleway';
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* line 141, sass/_about.scss */
+#about-testimonials .container hr {
+  margin: .5rem auto 2rem auto;
+  width: 70px;
+  height: 2px;
+  background-color: #e2e2e2;
+}
+/* line 147, sass/_about.scss */
+#about-testimonials .container p {
+  color: white;
+  font: normal 1em 'Poppins';
+}
+/* line 152, sass/_about.scss */
+#about-testimonials #testimonial-carousel {
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+}
+/* line 153, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel {
+  margin-bottom: 4rem;
+}
+/* line 157, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-caption {
+  z-index: 10;
+  bottom: 2rem;
+}
+/* line 160, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-caption a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 163, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-caption a h2 {
+  font: 500 5em 'Poppins';
+  margin: -2rem 0;
+}
+/* line 167, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-caption a h3 {
+  font: 500 3.5em 'Poppins';
+}
+/* line 171, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-caption a:hover {
+  color: #d8ffff;
+  transition: 0.2s;
+}
+/* line 176, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-subtext {
+  margin: 1rem auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+/* line 182, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-item {
+  height: 27rem;
+  background-color: #777;
+}
+/* line 186, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 27rem;
+  opacity: 0.1;
+}
+/* line 194, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(img/next-control.png);
+}
+/* line 199, sass/_about.scss */
+#about-testimonials #testimonial-carousel .carousel-control-prev-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(img/prev-control.png);
+}
+/* line 205, sass/_about.scss */
+#about-testimonials h2 {
+  margin-top: 2rem;
+}
+/* line 209, sass/_about.scss */
+#about-testimonials p {
+  font-size: 1em;
+  margin-bottom: 2rem;
+}
+/* line 213, sass/_about.scss */
+#about-testimonials .fill {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+/* line 217, sass/_about.scss */
+#about-testimonials .fill .testimony-author {
+  position: absolute;
+  width: 80%;
+  bottom: -25rem;
+  left: 15%;
+}
+/* line 222, sass/_about.scss */
+#about-testimonials .fill .testimony-author .text-right .text-left {
+  position: relative;
+}
+/* line 225, sass/_about.scss */
+#about-testimonials .fill .testimony-author .center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  font-size: 1rem;
+}
+/* line 232, sass/_about.scss */
+#about-testimonials .fill .testimony-author h3 {
+  font: 500 2em 'Poppins';
+  line-height: 1em;
+}
+/* line 236, sass/_about.scss */
+#about-testimonials .fill .testimony-author p {
+  margin-bottom: 0;
+  color: #000000;
+}
+/* line 240, sass/_about.scss */
+#about-testimonials .fill .testimony-author img {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+/* line 247, sass/_about.scss */
+#about-testimonials .fill .speech-bubble {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 178, 115, 0.81);
+  border-radius: 0;
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  font-style: italic;
+  font-size: 1.25em;
+  color: #7f7f7f;
+  left: 15%;
+  top: 2rem;
+}
+/* line 262, sass/_about.scss */
+#about-testimonials .fill .speech-bubble .arrow {
+  border-style: solid;
+  position: absolute;
+}
+/* line 267, sass/_about.scss */
+#about-testimonials .fill .bottom {
+  border-color: rgba(0, 178, 115, 0.81) transparent transparent transparent;
+  border-width: 25px 25px 0 25px;
+  bottom: -25px;
+  left: 48%;
+}
+/* line 274, sass/_about.scss */
+#about-testimonials .fill .bottom:after {
+  border-color: #ffffff transparent transparent transparent;
+  border-style: solid;
+  border-width: 24px 24px 0 24px;
+  bottom: 1px;
+  content: "";
+  position: absolute;
+  left: -24px;
+}
+
+/*------------------------ END OF TESTIMONIAL -------------------------*/
+/*------------------------ START ABOUT/ CONTACT-US -------------------------*/
+/* line 288, sass/_about.scss */
+#about-contact-container {
+  background-color: rgba(0, 178, 115, 0.81);
+  padding-top: 1.5rem;
+}
+/* line 294, sass/_about.scss */
+#about-contact-container .about-cont .row .col-md-5 hr {
+  margin: 2.5rem auto 0 auto;
+  width: 30rem;
+  height: 3px;
+  background-color: #e2e2e2;
+}
+/* line 300, sass/_about.scss */
+#about-contact-container .about-cont .row .col-md-5 .cont-img {
+  width: 100%;
+}
+/* line 305, sass/_about.scss */
+#about-contact-container .about-cont h2 {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  font: 800 2em 'Raleway';
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* line 313, sass/_about.scss */
+#about-contact-container .about-cont hr {
+  margin: .5rem auto 2rem auto;
+  width: 70px;
+  height: 2px;
+  background-color: #e2e2e2;
+}
+/* line 319, sass/_about.scss */
+#about-contact-container .about-cont p {
+  text-align: center;
+  color: white;
+  font: normal 1.3em 'Poppins';
+  padding-bottom: 2rem;
+}
+/* line 329, sass/_about.scss */
+#about-contact-container .container .row .col-md-6 h2 {
+  color: #787878;
+  font: 800 1.5rem 'Poppins';
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+  border-bottom: 3px solid #787878;
+}
+/* line 336, sass/_about.scss */
+#about-contact-container .container .row .col-md-6 .cont-info {
+  display: none;
+}
+/* line 340, sass/_about.scss */
+#about-contact-container .container .row #cont-left-section {
+  margin-top: -2.5rem;
+}
+/* line 342, sass/_about.scss */
+#about-contact-container .container .row #cont-left-section .container {
+  padding: 0;
+}
+/* line 344, sass/_about.scss */
+#about-contact-container .container .row #cont-left-section .container .cont-post {
+  margin: 2rem 0;
+}
+/* line 348, sass/_about.scss */
+#about-contact-container .container .row #cont-left-section .container .row .col-md-9 {
+  padding: 1.5rem;
+}
+/* line 350, sass/_about.scss */
+#about-contact-container .container .row #cont-left-section .container .row .col-md-9 p {
+  font: 400 1em "Poppins", sans-serif;
+  color: #7f7f7f;
+}
+/* line 357, sass/_about.scss */
+#about-contact-container .container .row #cont-left-section .cont-img {
+  height: auto;
+}
+/* line 362, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section input[type=text], #about-contact-container .container .row #contact-right-section input[type=number] {
+  padding-top: 2.2rem;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #7f7f7f;
+}
+/* line 370, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section input:focus {
+  border-bottom: 1px solid rgba(0, 178, 115, 0.81);
+}
+/* line 373, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section textarea:focus {
+  border: 1px solid rgba(0, 178, 115, 0.81);
+}
+/* line 376, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section *::-webkit-input-placeholder {
+  color: #7f7f7f;
+  font: 300 1rem "Raleway", sans-serif;
+}
+/* line 380, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section *:-moz-placeholder {
+  color: #7f7f7f;
+  font: 300 1rem "Raleway", sans-serif;
+}
+/* line 384, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section *::-moz-placeholder {
+  color: #7f7f7f;
+  font: 300 1rem "Raleway", sans-serif;
+}
+/* line 388, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section *:-ms-input-placeholder {
+  color: #7f7f7f;
+  font: 300 1rem "Raleway", sans-serif;
+}
+/* line 392, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section #subInterest {
+  padding: 2rem 0 1rem 0;
+}
+/* line 395, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section #sc-check {
+  padding-right: 6rem;
+}
+/* line 397, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section #sc-check .cont-checklist:focus {
+  background-color: #008853;
+}
+/* line 401, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section #cont-inquiry {
+  padding: 1rem 0 .5rem 0;
+}
+/* line 404, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section #cont-newsletter {
+  padding: 1rem 0 1rem 0;
+}
+/* line 408, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section #cont-submit .btn {
+  cursor: pointer;
+  margin: 0.5rem 5rem;
+  font-size: 1em;
+  background-color: rgba(0, 178, 115, 0.81);
+  opacity: 0.9;
+  color: #ffffff;
+}
+/* line 416, sass/_about.scss */
+#about-contact-container .container .row #contact-right-section #cont-submit .btn:hover {
+  cursor: pointer;
+  margin: 0.5rem 5rem;
+  font-size: 1em;
+  background-color: #008853;
+  opacity: 0.9;
+  color: #ffffff;
+}
+/* line 428, sass/_about.scss */
+#about-contact-container .blog-img {
+  height: auto;
+  width: 100%;
+}
+
+/*------------------------ END ABOUT/ CONTACT-US -------------------------*/
+@media (min-width: 40em) {
+  /* line 1, sass/_responsive.scss */
+  body {
+    /* Bump up size of carousel content */
+  }
+  /* line 4, sass/_responsive.scss */
+  body .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 12, sass/_responsive.scss */
+  body #projects-container .project-container {
+    font-size: 1.15em;
+    margin: auto;
+    position: relative;
+  }
+  /* line 19, sass/_responsive.scss */
+  body #contact-hero {
+    padding-top: 15rem;
+    background-image: url(img/contact-hero.png);
+    height: 35rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  /* line 28, sass/_responsive.scss */
+  body #contact-hero .container .jumbotron {
+    padding: 2rem;
+    text-align: center;
+    background-color: transparent;
+  }
+  /* line 32, sass/_responsive.scss */
+  body #contact-hero .container .jumbotron h2 {
+    font: 700 3rem 'Raleway';
+    color: #ffffff;
+  }
+  /* line 36, sass/_responsive.scss */
+  body #contact-hero .container .jumbotron h3 {
+    padding-top: .5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font: 500 1.4em 'Raleway', sans-serif;
+  }
+  /* line 45, sass/_responsive.scss */
+  body #contact-container {
+    padding-top: 1.5rem;
+  }
+  /* line 50, sass/_responsive.scss */
+  body #contact-container .container .row .col-md-6 h2 {
+    color: #787878;
+    font: 800 1.5rem 'Poppins';
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid #787878;
+  }
+  /* line 57, sass/_responsive.scss */
+  body #contact-container .container .row .col-md-6 .cont-info {
+    display: none;
+  }
+  /* line 61, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section {
+    margin-top: -2.5rem;
+  }
+  /* line 63, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .container {
+    padding: 0;
+  }
+  /* line 65, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .container .cont-post {
+    margin: 2rem 0;
+  }
+  /* line 69, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .container .row .col-md-9 {
+    padding: 1.5rem;
+  }
+  /* line 71, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .container .row .col-md-9 p {
+    font: 400 1em "Poppins", sans-serif;
+    color: #7f7f7f;
+  }
+  /* line 78, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .cont-img {
+    height: auto;
+  }
+  /* line 83, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section input[type=text], body #contact-container .container .row #contact-right-section input[type=number] {
+    padding-top: 2.2rem;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #7f7f7f;
+  }
+  /* line 91, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section input:focus {
+    border-bottom: 1px solid rgba(0, 178, 115, 0.81);
+  }
+  /* line 94, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section textarea:focus {
+    border: 1px solid rgba(0, 178, 115, 0.81);
+  }
+  /* line 97, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section *::-webkit-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1rem "Raleway", sans-serif;
+  }
+  /* line 101, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section *:-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1rem "Raleway", sans-serif;
+  }
+  /* line 105, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section *::-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1rem "Raleway", sans-serif;
+  }
+  /* line 109, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section *:-ms-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1rem "Raleway", sans-serif;
+  }
+  /* line 113, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #subInterest {
+    padding: 2rem 0 1rem 0;
+  }
+  /* line 116, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #sc-check {
+    padding-right: 6rem;
+  }
+  /* line 118, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #sc-check .cont-checklist:focus {
+    background-color: #008853;
+  }
+  /* line 122, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #cont-inquiry {
+    padding: 1rem 0 .5rem 0;
+  }
+  /* line 125, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #cont-newsletter {
+    padding: 1rem 0 1rem 0;
+  }
+  /* line 129, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #cont-submit .btn {
+    cursor: pointer;
+    margin: 0.5rem 5rem;
+    font-size: 1em;
+    background-color: rgba(0, 178, 115, 0.81);
+    opacity: 0.9;
+    color: #ffffff;
+  }
+  /* line 137, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #cont-submit .btn:hover {
+    cursor: pointer;
+    margin: 0.5rem 5rem;
+    font-size: 1em;
+    background-color: #008853;
+    opacity: 0.9;
+    color: #ffffff;
+  }
+  /* line 149, sass/_responsive.scss */
+  body #contact-container .blog-img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 154, sass/_responsive.scss */
+  body .cont-google-map {
+    padding-top: 2rem;
+  }
+  /* line 156, sass/_responsive.scss */
+  body .cont-google-map iframe {
+    width: 100%;
+  }
+  /* line 164, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 {
+    /*          .btn{
+                margin: 1rem auto;
+                border-radius: 10px;
+                border: 1px solid $green;
+                padding: 0.5rem;
+                color: $green;
+              }
+              .btn:hover{
+                background-color: $green;
+                color: $white;
+              }*/
+  }
+  /* line 165, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid {
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  /* line 170, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid a .blog-bg {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+  }
+  /* line 179, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 0 1rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 50%;
+    height: 100%;
+  }
+  /* line 188, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a {
+    color: #2b2b2b;
+  }
+  /* line 190, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5rem 1.5rem 0 0;
+    font: 900 1.2em "Poppins";
+  }
+  /* line 197, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:hover, body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:active, body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:visited {
+    text-decoration: none;
+    color: #575757;
+  }
+  /* line 201, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name {
+    font: 600 .8rem "Raleway";
+    padding: 1.5rem 0;
+    text-align: center;
+    color: #7f7f7f;
+  }
+  /* line 206, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a {
+    color: #7f7f7f;
+  }
+  /* line 209, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a:hover {
+    color: #008853;
+  }
+  /* line 213, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .blog-parag {
+    font: 500 1rem "Raleway";
+    line-height: 1.3rem;
+    text-align: justify;
+  }
+  /* line 218, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center {
+    padding-top: .5rem;
+  }
+  /* line 220, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center .btn {
+    font: 300 1rem "Raleway";
+    cursor: pointer;
+    margin: 1rem auto 1rem auto;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 178, 115, 0.81);
+    padding: 0.5rem;
+    color: #ffffff;
+    background-color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 230, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center .btn:hover {
+    background-color: #008853;
+    color: #ffffff;
+  }
+  /* line 236, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .blog-date {
+    color: #ffffff;
+    font: 700 1.2em "Raleway";
+    text-align: center;
+    background-color: rgba(0, 178, 115, 0.81);
+    position: absolute;
+    top: 0rem;
+    right: -1rem;
+    padding: .5rem;
+  }
+  /* line 247, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 h2 {
+    color: #2b2b2b;
+    font: 500 3em 'Poppins';
+  }
+  /* line 251, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 p {
+    font-size: 1em;
+  }
+  /* line 254, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author {
+    vertical-align: top;
+    color: rgba(0, 178, 115, 0.81);
+    margin-top: 1rem;
+    font: 500 1em 'Poppins';
+  }
+  /* line 259, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author a {
+    text-decoration: none;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 263, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author a:hover {
+    color: #008853;
+  }
+  /* line 280, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 h2 {
+    text-transform: uppercase;
+    color: #008853;
+    font: 800 1.5em 'Raleway';
+    margin: 0.1rem 0;
+  }
+  /* line 286, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 p {
+    padding: .5rem 0;
+    font-size: 1em;
+  }
+  /* line 291, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type=text], body #full-blog-container .container .row .col-md-4 form input[type=number] {
+    background: transparent;
+    border: 1px solid #7f7f7f;
+    padding: .6rem 0 .6rem 0;
+  }
+  /* line 297, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input:focus {
+    border: 1px solid rgba(0, 178, 115, 0.81);
+  }
+  /* line 300, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-webkit-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 306, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 312, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 318, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-ms-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 324, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span {
+    background-color: #494949;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+  /* line 332, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span:hover {
+    background-color: #008853;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+  /* line 341, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 .follow-us {
+    padding: 1rem 0;
+  }
+  /* line 347, sass/_responsive.scss */
+  body #full-blog-container .blog-img {
+    height: auto;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 360, sass/_responsive.scss */
+  body header #nav-main div div .navbar-nav {
+    font: 500 1rem 'Poppins';
+  }
+  /* line 362, sass/_responsive.scss */
+  body header #nav-main div div .navbar-nav .nav-item {
+    padding: 0 1em;
+  }
+  /* line 371, sass/_responsive.scss */
+  body #myCarousel .carousel-control-next-icon {
+    height: 70px;
+    width: 70px;
+  }
+  /* line 375, sass/_responsive.scss */
+  body #myCarousel .carousel-control-prev-icon {
+    height: 70px;
+    width: 70px;
+  }
+  /* line 380, sass/_responsive.scss */
+  body #contact-hero {
+    padding-top: 15rem;
+    background-image: url(img/contact-hero.png);
+    height: 35rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  /* line 389, sass/_responsive.scss */
+  body #contact-hero .container .jumbotron {
+    padding: 2rem;
+    text-align: center;
+    background-color: transparent;
+  }
+  /* line 393, sass/_responsive.scss */
+  body #contact-hero .container .jumbotron h2 {
+    font: 700 3rem 'Raleway';
+    color: #ffffff;
+  }
+  /* line 397, sass/_responsive.scss */
+  body #contact-hero .container .jumbotron h3 {
+    padding-top: .5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    font: 500 1.4em 'Raleway', sans-serif;
+  }
+  /* line 406, sass/_responsive.scss */
+  body #contact-container {
+    padding-top: 1.5rem;
+  }
+  /* line 411, sass/_responsive.scss */
+  body #contact-container .container .row .col-md-6 h2 {
+    color: #787878;
+    font: 800 1.5rem 'Poppins';
+    margin: 0.5rem 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid #787878;
+  }
+  /* line 418, sass/_responsive.scss */
+  body #contact-container .container .row .col-md-6 .cont-info {
+    display: none;
+  }
+  /* line 422, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section {
+    margin-top: -2.5rem;
+  }
+  /* line 424, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .container {
+    padding: 0;
+  }
+  /* line 426, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .container .cont-post {
+    margin: 2rem 0;
+  }
+  /* line 430, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .container .row .col-md-9 {
+    padding: 1.5rem;
+  }
+  /* line 432, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .container .row .col-md-9 p {
+    font: 400 1em "Poppins", sans-serif;
+    color: #7f7f7f;
+  }
+  /* line 439, sass/_responsive.scss */
+  body #contact-container .container .row #cont-left-section .cont-img {
+    height: auto;
+  }
+  /* line 444, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section input[type=text], body #contact-container .container .row #contact-right-section input[type=number] {
+    padding-top: 2.2rem;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #7f7f7f;
+  }
+  /* line 452, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section input:focus {
+    border-bottom: 1px solid rgba(0, 178, 115, 0.81);
+  }
+  /* line 455, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section textarea:focus {
+    border: 1px solid rgba(0, 178, 115, 0.81);
+  }
+  /* line 458, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section *::-webkit-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1rem "Raleway", sans-serif;
+  }
+  /* line 462, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section *:-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1rem "Raleway", sans-serif;
+  }
+  /* line 466, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section *::-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1rem "Raleway", sans-serif;
+  }
+  /* line 470, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section *:-ms-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1rem "Raleway", sans-serif;
+  }
+  /* line 474, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #subInterest {
+    padding: 2rem 0 1rem 0;
+  }
+  /* line 477, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #sc-check {
+    padding-right: 6rem;
+  }
+  /* line 479, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #sc-check .cont-checklist:focus {
+    background-color: #008853;
+  }
+  /* line 483, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #cont-inquiry {
+    padding: 1rem 0 .5rem 0;
+  }
+  /* line 486, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #cont-newsletter {
+    padding: 1rem 0 1rem 0;
+  }
+  /* line 490, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #cont-submit .btn {
+    cursor: pointer;
+    margin: 0.5rem 5rem;
+    font-size: 1em;
+    background-color: rgba(0, 178, 115, 0.81);
+    opacity: 0.9;
+    color: #ffffff;
+  }
+  /* line 498, sass/_responsive.scss */
+  body #contact-container .container .row #contact-right-section #cont-submit .btn:hover {
+    cursor: pointer;
+    margin: 0.5rem 5rem;
+    font-size: 1em;
+    background-color: #008853;
+    opacity: 0.9;
+    color: #ffffff;
+  }
+  /* line 510, sass/_responsive.scss */
+  body #contact-container .blog-img {
+    height: auto;
+    width: 100%;
+  }
+  /* line 515, sass/_responsive.scss */
+  body .cont-google-map {
+    padding-top: 2rem;
+  }
+  /* line 517, sass/_responsive.scss */
+  body .cont-google-map iframe {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 527, sass/_responsive.scss */
+  body header #nav-main .container {
+    width: 90%;
+  }
+  /* line 530, sass/_responsive.scss */
+  body header #nav-main .container #top-nav button {
+    display: none;
+  }
+  /* line 533, sass/_responsive.scss */
+  body header #nav-main .container #top-nav #call-text {
+    display: none;
+  }
+  /* line 536, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right {
+    top: 1rem;
+    text-decoration: none;
+  }
+  /* line 539, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgba(0, 178, 115, 0.81);
+    padding: 10px 10px 10px 12px;
+    color: #ffffff;
+  }
+  /* line 548, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right i:hover {
+    background-color: rgba(35, 178, 203, 0.8);
+    transition: 0.7s ease-out;
+  }
+  /* line 555, sass/_responsive.scss */
+  body header #nav-main .container .navbar-brand {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+  /* line 559, sass/_responsive.scss */
+  body header #nav-main .container .navbar-brand img {
+    height: auto;
+    width: 150px;
+  }
+  /* line 566, sass/_responsive.scss */
+  body header #nav-main .container #containerNavbar .navbar-nav .separator-border {
+    border-right: none;
+  }
+  /* line 575, sass/_responsive.scss */
+  body #myCarousel {
+    /* Since positioning the image, we need to help out the caption */
+    /* Declare heights because of positioning of img element */
+  }
+  /* line 576, sass/_responsive.scss */
+  body #myCarousel .carousel {
+    margin-bottom: 2rem;
+  }
+  /* line 580, sass/_responsive.scss */
+  body #myCarousel .carousel-caption {
+    font-size: 1em;
+    z-index: 10;
+    bottom: 2rem;
+  }
+  /* line 584, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* line 587, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a h2 {
+    font: 500 3em 'Poppins';
+    margin: -1rem 0;
+  }
+  /* line 591, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a h3 {
+    font: 500 2em 'Poppins';
+  }
+  /* line 595, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a:hover {
+    color: #d8ffff;
+    transition: 0.2s;
+  }
+  /* line 600, sass/_responsive.scss */
+  body #myCarousel .carousel-subtext {
+    font-size: 1em;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  /* line 607, sass/_responsive.scss */
+  body #myCarousel .carousel-item {
+    height: 40rem;
+  }
+  /* line 610, sass/_responsive.scss */
+  body #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+  }
+  /* line 620, sass/_responsive.scss */
+  body #content-container .container {
+    width: 100%;
+  }
+  /* line 626, sass/_responsive.scss */
+  body #projects-container .image {
+    min-height: 400px;
+  }
+  /* line 629, sass/_responsive.scss */
+  body #projects-container .overlay-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+  }
+  /* line 637, sass/_responsive.scss */
+  body #projects-container .overlay-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+  }
+  /* line 645, sass/_responsive.scss */
+  body #projects-container .bg-blue {
+    background-color: rgba(35, 178, 203, 0.8);
+  }
+  /* line 648, sass/_responsive.scss */
+  body #projects-container .bg-orange {
+    background-color: rgba(244, 82, 44, 0.81);
+  }
+  /* line 651, sass/_responsive.scss */
+  body #projects-container .bg-green {
+    background-color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 654, sass/_responsive.scss */
+  body #projects-container .text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* line 662, sass/_responsive.scss */
+  body #projects-container .text h3 {
+    white-space: nowrap;
+    font-size: 1.5em;
+    line-height: 0.5em;
+    font-weight: 700;
+  }
+  /* line 668, sass/_responsive.scss */
+  body #projects-container .text .project-desc {
+    margin-top: 0.5rem;
+  }
+  /* line 671, sass/_responsive.scss */
+  body #projects-container .text .project-btn {
+    margin-top: 1rem;
+  }
+  /* line 674, sass/_responsive.scss */
+  body #projects-container .text .btn {
+    background-color: #d3d3d3;
+    color: #2b2b2b;
+    border-radius: 0;
+  }
+  /* line 679, sass/_responsive.scss */
+  body #projects-container .text .btn:hover {
+    background-color: #7f7f7f;
+  }
+  /* line 686, sass/_responsive.scss */
+  body #blog-container .container {
+    width: 100%;
+  }
+  /* line 688, sass/_responsive.scss */
+  body #blog-container .container #main-post {
+    margin: 3em 0;
+  }
+  /* line 693, sass/_responsive.scss */
+  body #blog-container .container .row .col-md-7 h2 {
+    color: #2b2b2b;
+    font: 500 2em 'Poppins';
+  }
+  /* line 697, sass/_responsive.scss */
+  body #blog-container .container .row .col-md-7 p {
+    font-size: 0.75em;
+  }
+  /* line 700, sass/_responsive.scss */
+  body #blog-container .container .row .col-md-7 .blog-author {
+    vertical-align: top;
+    color: rgba(0, 178, 115, 0.81);
+    margin-top: 0.75rem;
+    font: 500 1em 'Poppins';
+  }
+  /* line 705, sass/_responsive.scss */
+  body #blog-container .container .row .col-md-7 .blog-author a {
+    text-decoration: none;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 709, sass/_responsive.scss */
+  body #blog-container .container .row .col-md-7 .blog-author a:hover {
+    color: #008853;
+  }
+  /* line 713, sass/_responsive.scss */
+  body #blog-container .container .row .col-md-7 .btn {
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 178, 115, 0.81);
+    padding: 0.5rem;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 720, sass/_responsive.scss */
+  body #blog-container .container .row .col-md-7 .btn:hover {
+    background-color: rgba(0, 178, 115, 0.81);
+    color: #ffffff;
+  }
+  /* line 726, sass/_responsive.scss */
+  body #blog-container .container .row .col-md-4 h2 {
+    color: #2b2b2b;
+    font: 500 2em 'Poppins';
+    margin: 0.1rem 0;
+  }
+  /* line 731, sass/_responsive.scss */
+  body #blog-container .container .row .col-md-4 p {
+    font-size: 0.75em;
+  }
+  /* line 743, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author img {
+    height: 100px;
+    width: 100px;
+  }
+  /* line 751, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .carousel-item .testimony-author h3 {
+    font: 500 1.25em 'Poppins';
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+  /* line 765, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 {
+    /*          .btn{
+                margin: 1rem auto;
+                border-radius: 10px;
+                border: 1px solid $green;
+                padding: 0.5rem;
+                color: $green;
+              }
+              .btn:hover{
+                background-color: $green;
+                color: $white;
+              }*/
+  }
+  /* line 766, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid {
+    padding: 0;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  /* line 770, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .blog-bg {
+    height: auto;
+    width: 100%;
+  }
+  /* line 774, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 {
+    padding: 0 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  /* line 777, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a {
+    color: #2b2b2b;
+  }
+  /* line 779, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    font: 900 1.2em "Poppins";
+  }
+  /* line 786, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:hover, body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:active, body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:visited {
+    text-decoration: none;
+    color: #575757;
+  }
+  /* line 790, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name {
+    font: 600 .8rem "Raleway";
+    padding: 1rem 0;
+    text-align: center;
+    color: #7f7f7f;
+  }
+  /* line 795, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a {
+    color: #7f7f7f;
+  }
+  /* line 798, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a:hover {
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 802, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .blog-parag {
+    font: 500 1rem "Raleway";
+    line-height: 1.3rem;
+    text-align: justify;
+  }
+  /* line 807, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center {
+    padding-top: .5rem;
+  }
+  /* line 809, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center .btn {
+    cursor: pointer;
+    margin: 1rem auto 1rem auto;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 178, 115, 0.81);
+    padding: 0.5rem;
+    color: #ffffff;
+    background-color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 818, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center .btn:hover {
+    background-color: #008853;
+    color: #ffffff;
+  }
+  /* line 824, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .blog-date {
+    color: #ffffff;
+    font: 700 1.2em "Raleway";
+    text-align: center;
+    background-color: rgba(0, 178, 115, 0.81);
+    position: absolute;
+    top: -4.2rem;
+    padding: .5rem;
+  }
+  /* line 835, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 h2 {
+    color: #2b2b2b;
+    font: 500 3em 'Poppins';
+  }
+  /* line 839, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 p {
+    font-size: 1em;
+  }
+  /* line 842, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author {
+    vertical-align: top;
+    color: rgba(0, 178, 115, 0.81);
+    margin-top: 1rem;
+    font: 500 1em 'Poppins';
+  }
+  /* line 847, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author a {
+    text-decoration: none;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 851, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author a:hover {
+    color: #008853;
+  }
+  /* line 868, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 h2 {
+    text-transform: uppercase;
+    color: #008853;
+    font: 800 1.5em 'Raleway';
+    margin: 0.1rem 0;
+  }
+  /* line 874, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 p {
+    padding: .5rem 0;
+    font-size: 1em;
+  }
+  /* line 879, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type=text], body #full-blog-container .container .row .col-md-4 form input[type=number] {
+    background: transparent;
+    border: 1px solid #7f7f7f;
+    padding: .6rem 0 .6rem 0;
+  }
+  /* line 885, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input:focus {
+    border: 1px solid rgba(0, 178, 115, 0.81);
+  }
+  /* line 888, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-webkit-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 894, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 900, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 906, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-ms-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 912, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span {
+    background-color: #494949;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+  /* line 920, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span:hover {
+    background-color: #008853;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+  /* line 929, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 .follow-us {
+    padding-top: 1rem;
+  }
+  /* line 935, sass/_responsive.scss */
+  body #full-blog-container .blog-img {
+    height: auto;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 944, sass/_responsive.scss */
+  body .container {
+    width: 100%;
+  }
+  /* line 947, sass/_responsive.scss */
+  body #myCarousel {
+    /* Since positioning the image, we need to help out the caption */
+    /* Declare heights because of positioning of img element */
+  }
+  /* line 948, sass/_responsive.scss */
+  body #myCarousel .carousel {
+    margin-bottom: 2rem;
+  }
+  /* line 952, sass/_responsive.scss */
+  body #myCarousel .carousel-caption {
+    margin: 0 auto;
+    font-size: 1em;
+    z-index: 10;
+    bottom: 2rem;
+  }
+  /* line 957, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* line 960, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a h2 {
+    font: 500 3em 'Poppins';
+    margin: -1rem 0;
+  }
+  /* line 964, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a h3 {
+    font: 500 2em 'Poppins';
+  }
+  /* line 968, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a:hover {
+    color: #d8ffff;
+    transition: 0.2s;
+  }
+  /* line 972, sass/_responsive.scss */
+  body #myCarousel .carousel-caption p {
+    font-size: 0.75em;
+  }
+  /* line 976, sass/_responsive.scss */
+  body #myCarousel .carousel-subtext {
+    font-size: 1em;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  /* line 983, sass/_responsive.scss */
+  body #myCarousel .carousel-item {
+    height: 40rem;
+  }
+  /* line 986, sass/_responsive.scss */
+  body #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+  }
+  /* line 994, sass/_responsive.scss */
+  body #myCarousel .page-btn .btn {
+    margin: 0 0.25rem;
+    font-size: 1.3em;
+    background-color: rgba(0, 178, 115, 0.81);
+    opacity: 0.9;
+    color: #ffffff;
+    padding: 1rem 0.75rem;
+  }
+  /* line 1004, sass/_responsive.scss */
+  body #myCarousel .page-btn2 .btn {
+    margin: 0 0.25rem;
+    font-size: 1.3em;
+    background-color: #ffffff;
+    opacity: 0.9;
+    color: rgba(0, 178, 115, 0.81);
+    padding: 1rem 0.75rem;
+  }
+  /* line 1014, sass/_responsive.scss */
+  body #myCarousel .page-btn:hover .btn {
+    background-color: #008853;
+  }
+  /* line 1019, sass/_responsive.scss */
+  body #myCarousel .page-btn2:hover .btn {
+    background-color: #d3d3d3;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 1030, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author img {
+    height: 80px;
+    width: 80px;
+  }
+  /* line 1035, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .center {
+    top: 20%;
+  }
+  /* line 1038, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .bottom {
+    left: 46%;
+  }
+  /* line 1041, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .speech-bubble {
+    font-size: 1.25em;
+  }
+  /* line 1047, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .carousel-item .testimony-author h3 {
+    font: 500 1em 'Poppins';
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  /* line 1060, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 {
+    /*          .btn{
+                margin: 1rem auto;
+                border-radius: 10px;
+                border: 1px solid $green;
+                padding: 0.5rem;
+                color: $green;
+              }
+              .btn:hover{
+                background-color: $green;
+                color: $white;
+              }*/
+  }
+  /* line 1061, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  /* line 1066, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid a .blog-bg {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+  }
+  /* line 1075, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: 0 1rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 50%;
+    height: 100%;
+  }
+  /* line 1084, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a {
+    color: #2b2b2b;
+  }
+  /* line 1086, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 4rem 1.5rem 0 0;
+    font: 900 1.2em "Poppins";
+  }
+  /* line 1093, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:hover, body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:active, body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:visited {
+    text-decoration: none;
+    color: #575757;
+  }
+  /* line 1097, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name {
+    font: 600 .8rem "Raleway";
+    padding: 1rem 0;
+    text-align: center;
+    color: #7f7f7f;
+  }
+  /* line 1102, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a {
+    color: #7f7f7f;
+  }
+  /* line 1105, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a:hover {
+    color: #008853;
+  }
+  /* line 1109, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .blog-parag {
+    font: 500 1rem "Raleway";
+    line-height: 1.3rem;
+    text-align: justify;
+  }
+  /* line 1114, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center {
+    padding-top: .5rem;
+  }
+  /* line 1116, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center .btn {
+    font: 300 1rem "Raleway";
+    cursor: pointer;
+    margin: 1rem auto 1rem auto;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 178, 115, 0.81);
+    padding: 0.5rem;
+    color: #ffffff;
+    background-color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 1126, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center .btn:hover {
+    background-color: #008853;
+    color: #ffffff;
+  }
+  /* line 1132, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .blog-date {
+    color: #ffffff;
+    font: 700 1.2em "Raleway";
+    text-align: center;
+    background-color: rgba(0, 178, 115, 0.81);
+    position: absolute;
+    top: 0rem;
+    right: -1rem;
+    padding: .5rem;
+  }
+  /* line 1143, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 h2 {
+    color: #2b2b2b;
+    font: 500 3em 'Poppins';
+  }
+  /* line 1147, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 p {
+    font-size: 1em;
+  }
+  /* line 1150, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author {
+    vertical-align: top;
+    color: rgba(0, 178, 115, 0.81);
+    margin-top: 1rem;
+    font: 500 1em 'Poppins';
+  }
+  /* line 1155, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author a {
+    text-decoration: none;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 1159, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author a:hover {
+    color: #008853;
+  }
+  /* line 1176, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 h2 {
+    text-transform: uppercase;
+    color: #008853;
+    font: 800 1.5em 'Raleway';
+    margin: 0.1rem 0;
+  }
+  /* line 1182, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 p {
+    padding: .5rem 0;
+    font-size: 1em;
+  }
+  /* line 1187, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type=text], body #full-blog-container .container .row .col-md-4 form input[type=number] {
+    background: transparent;
+    border: 1px solid #7f7f7f;
+    padding: .6rem 0 .6rem 0;
+    width: 100%;
+  }
+  /* line 1193, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input:focus {
+    border: 1px solid rgba(0, 178, 115, 0.81);
+  }
+  /* line 1196, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-webkit-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1202, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1208, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1214, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-ms-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1220, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span {
+    background-color: #494949;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+  /* line 1228, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span:hover {
+    background-color: #008853;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+  /* line 1237, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 .follow-us {
+    padding: 1rem 0;
+  }
+  /* line 1243, sass/_responsive.scss */
+  body #full-blog-container .blog-img {
+    height: auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  /* line 1255, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid {
+    margin-bottom: 20px;
+  }
+  /* line 1261, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: .5rem 1.5rem 0 0;
+    font: 900 1em "Poppins";
+  }
+  /* line 1268, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name {
+    font: 600 .8rem "Raleway";
+    padding: 0 0 .5rem 0;
+    text-align: center;
+    color: #7f7f7f;
+  }
+  /* line 1273, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a {
+    color: #7f7f7f;
+  }
+  /* line 1276, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a:hover {
+    color: #008853;
+  }
+  /* line 1280, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .blog-parag {
+    font: 500 .9rem "Raleway";
+    line-height: 1.3rem;
+    text-align: justify;
+  }
+  /* line 1285, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center {
+    padding: 0;
+    margin: 0;
+  }
+  /* line 1294, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type=text], body #full-blog-container .container .row .col-md-4 form input[type=number] {
+    background: transparent;
+    border: 1px solid #7f7f7f;
+    padding: .6rem 0 .6rem 0;
+  }
+  /* line 1300, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input:focus {
+    border: 1px solid rgba(0, 178, 115, 0.81);
+  }
+  /* line 1303, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-webkit-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1309, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1315, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1321, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-ms-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1327, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span {
+    background-color: #494949;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+  /* line 1335, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span:hover {
+    background-color: #008853;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 1354, sass/_responsive.scss */
+  body #content-container .container .jumbotron h2 {
+    font-size: 2em;
+  }
+  /* line 1357, sass/_responsive.scss */
+  body #content-container .container .jumbotron p {
+    font-size: 1em;
+  }
+  /* line 1367, sass/_responsive.scss */
+  body header #nav-main div div .navbar-nav {
+    font: 500 1.25rem 'Poppins';
+  }
+  /* line 1372, sass/_responsive.scss */
+  body header #nav-main .navbar-toggler {
+    top: 0.75rem;
+  }
+  /* line 1375, sass/_responsive.scss */
+  body header #nav-main .container {
+    width: 100%;
+    margin: 0;
+  }
+  /* line 1379, sass/_responsive.scss */
+  body header #nav-main .container .navbar-brand img {
+    width: 100px;
+  }
+  /* line 1384, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right {
+    top: 0.50rem;
+  }
+  /* line 1391, sass/_responsive.scss */
+  body #myCarousel {
+    /* Since positioning the image, we need to help out the caption */
+    /* Declare heights because of positioning of img element */
+  }
+  /* line 1392, sass/_responsive.scss */
+  body #myCarousel .carousel {
+    margin-bottom: 2rem;
+  }
+  /* line 1396, sass/_responsive.scss */
+  body #myCarousel .carousel-caption {
+    margin: 0 auto;
+    font-size: 1em;
+    z-index: 10;
+    bottom: 1rem;
+  }
+  /* line 1401, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* line 1404, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a h2 {
+    font: 500 2em 'Poppins';
+    margin: -1rem 0;
+  }
+  /* line 1408, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a h3 {
+    font: 500 1.5em 'Poppins';
+  }
+  /* line 1412, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a:hover {
+    color: #d8ffff;
+    transition: 0.2s;
+  }
+  /* line 1416, sass/_responsive.scss */
+  body #myCarousel .carousel-caption p {
+    font-size: 0.75em;
+  }
+  /* line 1420, sass/_responsive.scss */
+  body #myCarousel .carousel-subtext {
+    font-size: 1em;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  /* line 1427, sass/_responsive.scss */
+  body #myCarousel .carousel-item {
+    height: 40rem;
+  }
+  /* line 1430, sass/_responsive.scss */
+  body #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+  }
+  /* line 1438, sass/_responsive.scss */
+  body #myCarousel .page-btn .btn {
+    margin: 0.5rem 0.25rem;
+    font-size: 1em;
+    background-color: rgba(0, 178, 115, 0.81);
+    opacity: 0.9;
+    color: #ffffff;
+    padding: 1rem 0.5rem;
+  }
+  /* line 1448, sass/_responsive.scss */
+  body #myCarousel .page-btn2 .btn {
+    margin: 0.5rem 0.25rem;
+    font-size: 1em;
+    background-color: #ffffff;
+    opacity: 0.9;
+    color: rgba(0, 178, 115, 0.81);
+    padding: 1rem 0.5rem;
+  }
+  /* line 1458, sass/_responsive.scss */
+  body #myCarousel .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+  }
+  /* line 1462, sass/_responsive.scss */
+  body #myCarousel .carousel-control-prev-icon {
+    height: 50px;
+    width: 50px;
+  }
+  /* line 1471, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author {
+    bottom: -21rem;
+  }
+  /* line 1473, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author img {
+    height: 60px;
+    width: 60px;
+  }
+  /* line 1478, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .center {
+    top: 0;
+  }
+  /* line 1481, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .speech-bubble {
+    font-size: 1em;
+  }
+  /* line 1485, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .carousel-item {
+    height: 350px;
+  }
+  /* line 1488, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .carousel-item .testimony-author h3 {
+    font: 500 1em 'Poppins';
+  }
+  /* line 1499, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 {
+    /*          .btn{
+                margin: 1rem auto;
+                border-radius: 10px;
+                border: 1px solid $green;
+                padding: 0.5rem;
+                color: $green;
+              }
+              .btn:hover{
+                background-color: $green;
+                color: $white;
+              }*/
+  }
+  /* line 1500, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid {
+    margin-bottom: 20px;
+    padding: 0;
+    position: relative;
+  }
+  /* line 1504, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .blog-bg {
+    height: auto;
+    width: 100%;
+  }
+  /* line 1508, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 {
+    padding: 0 1rem;
+  }
+  /* line 1510, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a {
+    color: #2b2b2b;
+  }
+  /* line 1512, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    font: 900 1.2em "Poppins";
+  }
+  /* line 1519, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:hover, body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:active, body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 a:visited {
+    text-decoration: none;
+    color: #575757;
+  }
+  /* line 1523, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name {
+    font: 600 .8rem "Raleway";
+    padding: 1rem 0;
+    text-align: center;
+    color: #7f7f7f;
+  }
+  /* line 1528, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a {
+    color: #7f7f7f;
+  }
+  /* line 1531, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .date-name a:hover {
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 1535, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .blog-parag {
+    font: 500 1rem "Raleway";
+    line-height: 1.3rem;
+    text-align: justify;
+  }
+  /* line 1540, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center {
+    padding-top: .5rem;
+  }
+  /* line 1542, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center .btn {
+    cursor: pointer;
+    margin: 1rem auto 1rem auto;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 178, 115, 0.81);
+    padding: 0.5rem;
+    color: #ffffff;
+    background-color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 1551, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .col-sm-12 .text-center .btn:hover {
+    background-color: #008853;
+    color: #ffffff;
+  }
+  /* line 1557, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .container-fluid .blog-date {
+    color: #ffffff;
+    font: 700 1.2em "Raleway";
+    text-align: center;
+    background-color: rgba(0, 178, 115, 0.81);
+    position: absolute;
+    top: -4.2rem;
+    left: 0;
+    padding: .5rem;
+  }
+  /* line 1569, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 h2 {
+    color: #2b2b2b;
+    font: 500 3em 'Poppins';
+  }
+  /* line 1573, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 p {
+    font-size: 1em;
+  }
+  /* line 1576, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author {
+    vertical-align: top;
+    color: rgba(0, 178, 115, 0.81);
+    margin-top: 1rem;
+    font: 500 1em 'Poppins';
+  }
+  /* line 1581, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author a {
+    text-decoration: none;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 1585, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-8 .blog-author a:hover {
+    color: #008853;
+  }
+  /* line 1602, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 h2 {
+    text-transform: uppercase;
+    color: #008853;
+    font: 800 1.5em 'Raleway';
+    margin: 0.1rem 0;
+  }
+  /* line 1608, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 p {
+    padding: .5rem 0;
+    font-size: 1em;
+  }
+  /* line 1613, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type=text], body #full-blog-container .container .row .col-md-4 form input[type=number] {
+    background: transparent;
+    border: 1px solid #7f7f7f;
+    padding: .6rem 0 .6rem 0;
+  }
+  /* line 1619, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input:focus {
+    border: 1px solid rgba(0, 178, 115, 0.81);
+  }
+  /* line 1622, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-webkit-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1628, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1634, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]::-moz-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1640, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form input[type="text"], body #full-blog-container .container .row .col-md-4 form textarea[type="text"]:-ms-input-placeholder {
+    color: #7f7f7f;
+    font: 300 1.2rem "Raleway", sans-serif;
+    padding-left: .3rem;
+    background-color: #e6e6e6;
+  }
+  /* line 1646, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span {
+    background-color: #494949;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+  /* line 1654, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 form span:hover {
+    background-color: #008853;
+    color: #fff;
+    padding: .85rem;
+    margin-left: -.3rem;
+    font-weight: 400;
+  }
+  /* line 1663, sass/_responsive.scss */
+  body #full-blog-container .container .row .col-md-4 .follow-us {
+    padding-top: 1rem;
+  }
+  /* line 1669, sass/_responsive.scss */
+  body #full-blog-container .blog-img {
+    height: auto;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 1682, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .col-3 {
+    max-width: 7rem;
+  }
+  /* line 1685, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .text-right {
+    display: none;
+  }
+  /* line 1688, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author {
+    bottom: -27rem;
+  }
+  /* line 1690, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author img {
+    height: 60px;
+    width: 60px;
+  }
+  /* line 1695, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .center {
+    top: 0;
+  }
+  /* line 1698, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .fill .speech-bubble {
+    font-size: 1em;
+  }
+  /* line 1702, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .carousel-item {
+    height: 450px;
+  }
+  /* line 1705, sass/_responsive.scss */
+  body #testimonials #testimonial-carousel .carousel-item .testimony-author h3 {
+    font: 500 0.75em 'Poppins';
+  }
+  /* line 1712, sass/_responsive.scss */
+  body .division-title, body #content-container .container .jumbotron h2, body #blog-container h2, body #testimonials h2, body #about-testimonials h2, #about-testimonials body h2 {
+    text-align: center;
+    font: 800 2em 'Raleway';
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 1719, sass/_responsive.scss */
+  body header #nav-main .container {
+    width: 100%;
+  }
+  /* line 1722, sass/_responsive.scss */
+  body header #nav-main .container #top-nav #call-text {
+    display: none;
+  }
+  /* line 1725, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right {
+    top: 0.25rem;
+    text-decoration: none;
+  }
+  /* line 1728, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgba(0, 178, 115, 0.81);
+    padding: 10px 10px 10px 12px;
+    color: #ffffff;
+  }
+  /* line 1737, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right i:hover {
+    background-color: rgba(35, 178, 203, 0.8);
+    transition: 0.7s ease-out;
+  }
+  /* line 1742, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .email-navbar-toggler-right {
+    top: 50%;
+    text-decoration: none;
+  }
+  /* line 1745, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .email-navbar-toggler-right i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgba(0, 178, 115, 0.81);
+    padding: 10px 10px 10px 12px;
+    color: #ffffff;
+  }
+  /* line 1754, sass/_responsive.scss */
+  body header #nav-main .container #top-nav .email-navbar-toggler-right i:hover {
+    background-color: rgba(35, 178, 203, 0.8);
+    transition: 0.7s ease-out;
+  }
+  /* line 1761, sass/_responsive.scss */
+  body header #nav-main .container .navbar-brand {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+  /* line 1765, sass/_responsive.scss */
+  body header #nav-main .container .navbar-brand img {
+    height: auto;
+    width: 100px;
+  }
+  /* line 1770, sass/_responsive.scss */
+  body header #nav-main .container .navbar-toggler {
+    top: 0.6rem;
+  }
+  /* line 1776, sass/_responsive.scss */
+  body #myCarousel {
+    /* Since positioning the image, we need to help out the caption */
+    /* Declare heights because of positioning of img element */
+  }
+  /* line 1777, sass/_responsive.scss */
+  body #myCarousel .carousel {
+    margin-bottom: 2rem;
+  }
+  /* line 1781, sass/_responsive.scss */
+  body #myCarousel .carousel-caption {
+    margin: 0 auto;
+    font-size: 1em;
+    z-index: 10;
+    bottom: 1rem;
+  }
+  /* line 1786, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* line 1789, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a h2 {
+    font: 500 1.5em 'Poppins';
+    margin: -0.5rem 0;
+  }
+  /* line 1793, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a h3 {
+    font: 500 1.25em 'Poppins';
+  }
+  /* line 1797, sass/_responsive.scss */
+  body #myCarousel .carousel-caption a:hover {
+    color: #d8ffff;
+    transition: 0.2s;
+  }
+  /* line 1801, sass/_responsive.scss */
+  body #myCarousel .carousel-caption p {
+    font-size: 0.75em;
+  }
+  /* line 1805, sass/_responsive.scss */
+  body #myCarousel .carousel-subtext {
+    font-size: 1em;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  /* line 1812, sass/_responsive.scss */
+  body #myCarousel .carousel-item {
+    height: 40rem;
+  }
+  /* line 1815, sass/_responsive.scss */
+  body #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+  }
+  /* line 1823, sass/_responsive.scss */
+  body #myCarousel .page-btn .btn {
+    margin: 0.5rem 0.25rem;
+    font-size: 1em;
+    background-color: rgba(0, 178, 115, 0.81);
+    opacity: 0.9;
+    color: #ffffff;
+    padding: 1rem 0.5rem;
+  }
+  /* line 1833, sass/_responsive.scss */
+  body #myCarousel .page-btn2 .btn {
+    margin: 0.5rem 0.25rem;
+    font-size: 1em;
+    background-color: #ffffff;
+    opacity: 0.9;
+    color: rgba(0, 178, 115, 0.81);
+    padding: 1rem 0.5rem;
+  }
+  /* line 1843, sass/_responsive.scss */
+  body #myCarousel .carousel-control-next-icon {
+    height: 35px;
+    width: 35px;
+  }
+  /* line 1847, sass/_responsive.scss */
+  body #myCarousel .carousel-control-prev-icon {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+/*@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/poppins-regular-webfont.woff2') format('woff2'),
+  url('fonts/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsbold';
+  src: url('fonts/poppins-bold-webfont.woff2') format('woff2'),
+  url('fonts/poppins-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}*/
+/* line 52, sass/style.scss */
+body {
+  font: 300 1em 'Poppins';
+}

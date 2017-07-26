@@ -1,0 +1,80 @@
+body {
+  #proj-header {
+    padding-top: 8rem;
+    .container {
+      .jumbotron {
+        padding: 2rem;
+        text-align: center;
+        background-color: transparent;
+        h2 {
+          font: 800 3em 'Raleway';
+          color: $green;
+        }
+        hr {
+          margin: 2rem auto;
+          width: 100px;
+          height: 3px;
+          background-color: $green;
+        }
+        .btn {
+          background-color: $green;
+          margin: 1rem auto;
+          border-radius: 0;
+          padding: 1rem;
+          font-size: 21px;
+        }
+        .btn:hover {
+          background-color: $dark-green;
+        }
+      }
+    }
+  }
+
+  #proj-container{
+    .container{
+      margin: 0 auto;
+      h2{
+        margin-top: 2rem;
+        font: 700 2.5em 'Raleway';
+        color: $dark-green;
+        text-align: center;
+      }
+      .row{
+        .col-md-5{
+          margin: 2rem auto;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          h2{
+            text-transform: uppercase;
+            text-align: center;
+            color: $gray;
+            font: 400 1.3em 'Poppins';
+            margin: 0.1rem 0;
+          }
+          p{
+            font-size: 0.75em;
+          }
+          .btn{
+            margin: 2rem auto 2rem auto;
+            border-radius: 3px;
+            border: 1px solid $green;
+            padding: 0.5rem;
+            color: $green;
+          }
+          .btn:hover{
+            background-color: $green;
+            color: $white;
+          }
+        }
+      }
+    }
+    .blog-img{
+      height: auto;
+      width: 100%;
+    }
+    .proj-logo{
+      height: auto;
+      width: 100%;
+    }
+  }
+
+}

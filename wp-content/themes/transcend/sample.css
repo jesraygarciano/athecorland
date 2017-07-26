@@ -1,0 +1,1423 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 18, sass/sample.scss */
+body {
+  font: 300 1em 'Poppins';
+  /*@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+    url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }*/
+  /*Start of Carousel*/
+  /*END OF CAROUSEL*/
+  /*START OF CAROUSEL*/
+  /*END OF CAROUSEL*/
+  /*START OF CONTENT*/
+  /*------------------------ PROJECTS -------------------------*/
+  /*------------------------ END OF PROJECTS -------------------------*/
+  /*------------------------ START OF BLOG -------------------------*/
+  /*------------------------ END OF BLOG -------------------------*/
+  /*------------------------ START OF TESTIMONIAL -------------------------*/
+  /*------------------------ END OF TESTIMONIAL -------------------------*/
+  /*------------------------ START OF SUBDIVISION -------------------------*/
+  /*------------------------ END OF SUBDIVISION -------------------------*/
+  /*-------------FOOTER-------------*/
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+}
+/* line 46, sass/sample.scss */
+body header #nav-main {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgba(255, 255, 255, 0.9);
+}
+/* line 48, sass/sample.scss */
+body header #nav-main #top-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+/* line 52, sass/sample.scss */
+body header #nav-main #top-nav .btn {
+  width: 150px;
+  height: 40px;
+  border-radius: 50px !important;
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgba(0, 178, 115, 0.81);
+  border: none;
+}
+/* line 60, sass/sample.scss */
+body header #nav-main #top-nav .btn div {
+  text-align: center;
+  margin-top: -19px;
+  display: inline-block;
+}
+/* line 65, sass/sample.scss */
+body header #nav-main #top-nav .btn .carousel-control-next-icon {
+  margin: 0 -18px -10px 9px;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background-image: url(../../assets/img/arrow-next-icon.png);
+}
+/* line 73, sass/sample.scss */
+body header #nav-main #top-nav .btn:hover {
+  background-color: #008853;
+}
+/* line 76, sass/sample.scss */
+body header #nav-main #top-nav #call-text {
+  margin: 0 2rem;
+  display: inline-block;
+  font: 600 1.25em 'Poppins';
+}
+/* line 80, sass/sample.scss */
+body header #nav-main #top-nav #call-text a {
+  text-decoration: none;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 84, sass/sample.scss */
+body header #nav-main #top-nav #call-text a:hover {
+  color: #008853;
+}
+/* line 88, sass/sample.scss */
+body header #nav-main #top-nav i {
+  display: none;
+}
+/* line 92, sass/sample.scss */
+body header #nav-main .navbar-toggler {
+  top: 1.25rem;
+}
+/* line 96, sass/sample.scss */
+body header #nav-main .navbar-brand img {
+  height: auto;
+  width: 200px;
+}
+/* line 104, sass/sample.scss */
+body header #nav-main div div .navbar-nav {
+  margin-top: 20px;
+  font: 500 1.15rem 'Poppins';
+}
+/* line 107, sass/sample.scss */
+body header #nav-main div div .navbar-nav .separator-border {
+  border-right: 1px solid #2b2b2b;
+}
+/* line 110, sass/sample.scss */
+body header #nav-main div div .navbar-nav .nav-item {
+  padding: 0 1.5em;
+}
+/* line 112, sass/sample.scss */
+body header #nav-main div div .navbar-nav .nav-item a {
+  color: #2b2b2b;
+}
+/* line 115, sass/sample.scss */
+body header #nav-main div div .navbar-nav .nav-item a:hover {
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 118, sass/sample.scss */
+body header #nav-main div div .navbar-nav .nav-item .nav-link {
+  padding: 0;
+}
+/* line 128, sass/sample.scss */
+body #myCarousel {
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+}
+/* line 129, sass/sample.scss */
+body #myCarousel .carousel {
+  margin-bottom: 4rem;
+}
+/* line 133, sass/sample.scss */
+body #myCarousel .carousel-caption {
+  z-index: 10;
+  bottom: 2rem;
+}
+/* line 136, sass/sample.scss */
+body #myCarousel .carousel-caption a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 139, sass/sample.scss */
+body #myCarousel .carousel-caption a h2 {
+  font: 500 5em 'Poppins';
+  margin: -2rem 0;
+}
+/* line 143, sass/sample.scss */
+body #myCarousel .carousel-caption a h3 {
+  font: 500 3.5em 'Poppins';
+}
+/* line 147, sass/sample.scss */
+body #myCarousel .carousel-caption a:hover {
+  color: #d8ffff;
+  transition: 0.2s;
+}
+/* line 152, sass/sample.scss */
+body #myCarousel .carousel-subtext {
+  margin: 1rem auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+/* line 158, sass/sample.scss */
+body #myCarousel .carousel-item {
+  height: 45rem;
+  background-color: #777;
+}
+/* line 162, sass/sample.scss */
+body #myCarousel .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 45rem;
+}
+/* line 170, sass/sample.scss */
+body #myCarousel .page-btn .btn {
+  margin: 0 0.5rem;
+  font-size: 1em;
+  background-color: rgba(0, 178, 115, 0.81);
+  opacity: 0.9;
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+}
+/* line 180, sass/sample.scss */
+body #myCarousel .page-btn2 .btn {
+  margin: 0 0.5rem;
+  font-size: 1em;
+  background-color: #ffffff;
+  opacity: 0.9;
+  color: rgba(0, 178, 115, 0.81);
+  padding: 1rem 1.5rem;
+}
+/* line 190, sass/sample.scss */
+body #myCarousel .page-btn:hover .btn {
+  background-color: #008853;
+}
+/* line 195, sass/sample.scss */
+body #myCarousel .page-btn2:hover .btn {
+  background-color: #d3d3d3;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 200, sass/sample.scss */
+body #myCarousel .carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(../../assets/img/next-control.png);
+}
+/* line 205, sass/sample.scss */
+body #myCarousel .carousel-control-prev-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(../../assets/img/prev-control.png);
+}
+/* line 214, sass/sample.scss */
+body hr {
+  margin: 2rem auto;
+  width: 100px;
+  height: 3px;
+  background-color: rgba(0, 178, 115, 0.81);
+}
+/* line 220, sass/sample.scss */
+body .division-title, body #content-container .container .jumbotron h2, body #blog-container h2, body #testimonials h2 {
+  text-align: center;
+  font: 800 3em 'Raleway';
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 227, sass/sample.scss */
+body #content-container .container .jumbotron {
+  padding: 2rem;
+  text-align: center;
+  background-color: transparent;
+}
+/* line 234, sass/sample.scss */
+body #content-container .container .jumbotron .btn {
+  background-color: rgba(0, 178, 115, 0.81);
+  margin: 1rem auto;
+  border-radius: 0;
+  padding: 1rem;
+  font-size: 21px;
+}
+/* line 241, sass/sample.scss */
+body #content-container .container .jumbotron .btn:hover {
+  background-color: #008853;
+}
+/* line 251, sass/sample.scss */
+body #projects-container .project-container {
+  width: 100%;
+  position: relative;
+}
+/* line 255, sass/sample.scss */
+body #projects-container .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* line 260, sass/sample.scss */
+body #projects-container .overlay-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  transition: .5s ease;
+}
+/* line 268, sass/sample.scss */
+body #projects-container .overlay-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  transition: .5s ease;
+}
+/* line 276, sass/sample.scss */
+body #projects-container .bg-blue {
+  background-color: rgba(35, 178, 203, 0.8);
+}
+/* line 279, sass/sample.scss */
+body #projects-container .bg-orange {
+  background-color: rgba(244, 82, 44, 0.81);
+}
+/* line 282, sass/sample.scss */
+body #projects-container .bg-green {
+  background-color: rgba(0, 178, 115, 0.81);
+}
+/* line 285, sass/sample.scss */
+body #projects-container .text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* line 292, sass/sample.scss */
+body #projects-container .text h3 {
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: 700;
+}
+/* line 296, sass/sample.scss */
+body #projects-container .text h3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 300, sass/sample.scss */
+body #projects-container .text h3 a:hover {
+  color: #d3d3d3;
+}
+/* line 304, sass/sample.scss */
+body #projects-container .text .project-desc {
+  margin-top: 0.5rem;
+}
+/* line 307, sass/sample.scss */
+body #projects-container .text .project-btn {
+  margin-top: 1rem;
+}
+/* line 310, sass/sample.scss */
+body #projects-container .text .btn {
+  background-color: #d3d3d3;
+  color: #2b2b2b;
+  border-radius: 0;
+}
+/* line 315, sass/sample.scss */
+body #projects-container .text .btn:hover {
+  background-color: #7f7f7f;
+}
+/* line 324, sass/sample.scss */
+body #blog-container h2 {
+  margin-top: 2rem;
+}
+/* line 329, sass/sample.scss */
+body #blog-container .container #main-post {
+  margin: 3rem auto;
+}
+/* line 333, sass/sample.scss */
+body #blog-container .container .row .blog-author {
+  vertical-align: top;
+  color: rgba(0, 178, 115, 0.81);
+  margin-top: 1rem;
+  font: 500 1em 'Poppins';
+}
+/* line 338, sass/sample.scss */
+body #blog-container .container .row .blog-author a {
+  text-decoration: none;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 342, sass/sample.scss */
+body #blog-container .container .row .blog-author a:hover {
+  color: #008853;
+}
+/* line 347, sass/sample.scss */
+body #blog-container .container .row .col-md-7 h2 {
+  color: #2b2b2b;
+  font: 500 3em 'Poppins';
+}
+/* line 351, sass/sample.scss */
+body #blog-container .container .row .col-md-7 p {
+  font-size: 1em;
+}
+/* line 354, sass/sample.scss */
+body #blog-container .container .row .col-md-7 .btn {
+  margin: 1rem auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 178, 115, 0.81);
+  padding: 0.5rem;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 361, sass/sample.scss */
+body #blog-container .container .row .col-md-7 .btn:hover {
+  background-color: rgba(0, 178, 115, 0.81);
+  color: #ffffff;
+}
+/* line 367, sass/sample.scss */
+body #blog-container .container .row .col-md-4 h2 {
+  color: #2b2b2b;
+  font: 500 2em 'Poppins';
+  margin: 0.1rem 0;
+}
+/* line 372, sass/sample.scss */
+body #blog-container .container .row .col-md-4 p {
+  font-size: 0.75em;
+}
+/* line 375, sass/sample.scss */
+body #blog-container .container .row .col-md-4 .btn {
+  margin: 1rem auto;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 178, 115, 0.81);
+  padding: 0.5rem;
+  color: rgba(0, 178, 115, 0.81);
+}
+/* line 382, sass/sample.scss */
+body #blog-container .container .row .col-md-4 .btn:hover {
+  background-color: rgba(0, 178, 115, 0.81);
+  color: #ffffff;
+}
+/* line 389, sass/sample.scss */
+body #blog-container .blog-img {
+  height: auto;
+  width: 100%;
+}
+/* line 397, sass/sample.scss */
+body #testimonials {
+  text-align: center;
+}
+/* line 399, sass/sample.scss */
+body #testimonials #testimonial-carousel {
+  /* Since positioning the image, we need to help out the caption */
+  /* Declare heights because of positioning of img element */
+}
+/* line 400, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel {
+  margin-bottom: 4rem;
+}
+/* line 404, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-caption {
+  z-index: 10;
+  bottom: 2rem;
+}
+/* line 407, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-caption a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* line 410, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-caption a h2 {
+  font: 500 5em 'Poppins';
+  margin: -2rem 0;
+}
+/* line 414, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-caption a h3 {
+  font: 500 3.5em 'Poppins';
+}
+/* line 418, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-caption a:hover {
+  color: #d8ffff;
+  transition: 0.2s;
+}
+/* line 423, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-subtext {
+  margin: 1rem auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+}
+/* line 429, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-item {
+  height: 27rem;
+  background-color: #777;
+}
+/* line 433, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 27rem;
+  opacity: 0.1;
+}
+/* line 441, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-control-next-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(../../assets/img/next-control.png);
+}
+/* line 446, sass/sample.scss */
+body #testimonials #testimonial-carousel .carousel-control-prev-icon {
+  height: 80px;
+  width: 80px;
+  background-image: url(../../assets/img/prev-control.png);
+}
+/* line 452, sass/sample.scss */
+body #testimonials h2 {
+  margin-top: 2rem;
+}
+/* line 456, sass/sample.scss */
+body #testimonials p {
+  font-size: 1em;
+  margin-bottom: 2rem;
+}
+/* line 460, sass/sample.scss */
+body #testimonials .fill {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/* line 464, sass/sample.scss */
+body #testimonials .fill .testimony-author {
+  position: absolute;
+  width: 80%;
+  bottom: -25rem;
+  left: 15%;
+}
+/* line 469, sass/sample.scss */
+body #testimonials .fill .testimony-author .text-right .text-left {
+  position: relative;
+}
+/* line 472, sass/sample.scss */
+body #testimonials .fill .testimony-author .center {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  font-size: 1rem;
+}
+/* line 479, sass/sample.scss */
+body #testimonials .fill .testimony-author h3 {
+  font: 500 2em 'Poppins';
+  line-height: 1em;
+}
+/* line 483, sass/sample.scss */
+body #testimonials .fill .testimony-author p {
+  margin-bottom: 0;
+}
+/* line 486, sass/sample.scss */
+body #testimonials .fill .testimony-author img {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+}
+/* line 493, sass/sample.scss */
+body #testimonials .fill .speech-bubble {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 178, 115, 0.81);
+  border-radius: 0;
+  width: 70%;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  font-style: italic;
+  font-size: 1.25em;
+  color: #7f7f7f;
+  left: 15%;
+  top: 2rem;
+}
+/* line 508, sass/sample.scss */
+body #testimonials .fill .speech-bubble .arrow {
+  border-style: solid;
+  position: absolute;
+}
+/* line 513, sass/sample.scss */
+body #testimonials .fill .bottom {
+  border-color: rgba(0, 178, 115, 0.81) transparent transparent transparent;
+  border-width: 25px 25px 0 25px;
+  bottom: -25px;
+  left: 48%;
+}
+/* line 520, sass/sample.scss */
+body #testimonials .fill .bottom:after {
+  border-color: #ffffff transparent transparent transparent;
+  border-style: solid;
+  border-width: 24px 24px 0 24px;
+  bottom: 1px;
+  content: "";
+  position: absolute;
+  left: -24px;
+}
+/* line 535, sass/sample.scss */
+body #subdivision #subdivision-title {
+  position: relative;
+  background-image: url("../img/featured_img.jpg");
+  height: 38rem;
+}
+/* line 540, sass/sample.scss */
+body #subdivision #subdivision-title .sub-content {
+  position: absolute;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* line 549, sass/sample.scss */
+body #subdivision #subdivision-title .sub-content h2 {
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 0.5em;
+}
+/* line 554, sass/sample.scss */
+body #subdivision #subdivision-title .sub-content .sub-address {
+  font-size: 1.5em;
+}
+/* line 557, sass/sample.scss */
+body #subdivision #subdivision-title .sub-content .sub-text {
+  margin-top: 1.5rem;
+  font-size: 1em;
+}
+/* line 566, sass/sample.scss */
+body .parallax, body #subdivision #subdivision-title {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 574, sass/sample.scss */
+body footer {
+  padding: 2rem 0 4rem 0;
+  background-color: #ffffff;
+}
+/* line 578, sass/sample.scss */
+body footer .col-md-6 .footer-logo {
+  height: auto;
+  width: 200px;
+  margin: 2rem 0;
+}
+/* line 586, sass/sample.scss */
+body footer .col-md-3 h3 {
+  font: 300 2em 'Poppins';
+  color: rgba(0, 178, 115, 0.81);
+  margin: 2rem 0;
+}
+/* line 593, sass/sample.scss */
+body footer .col-md-3 ul li a {
+  text-decoration: none;
+  color: #7f7f7f;
+  font: 500 1.5em 'Poppins';
+}
+/* line 598, sass/sample.scss */
+body footer .col-md-3 ul li a:hover {
+  color: #008853;
+}
+@media (min-width: 40em) {
+  /* line 18, sass/sample.scss */
+  body {
+    /* Bump up size of carousel content */
+  }
+  /* line 610, sass/sample.scss */
+  body .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  /* line 618, sass/sample.scss */
+  body #projects-container .project-container {
+    font-size: 1.15em;
+    margin: auto;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  /* line 633, sass/sample.scss */
+  body header #nav-main div div .navbar-nav {
+    font: 500 1rem 'Poppins';
+  }
+  /* line 635, sass/sample.scss */
+  body header #nav-main div div .navbar-nav .nav-item {
+    padding: 0 1em;
+  }
+  /* line 645, sass/sample.scss */
+  body #myCarousel .carousel-control-next-icon {
+    height: 70px;
+    width: 70px;
+  }
+  /* line 649, sass/sample.scss */
+  body #myCarousel .carousel-control-prev-icon {
+    height: 70px;
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  /* line 659, sass/sample.scss */
+  body header #nav-main .container {
+    width: 90%;
+  }
+  /* line 662, sass/sample.scss */
+  body header #nav-main .container #top-nav button {
+    display: none;
+  }
+  /* line 665, sass/sample.scss */
+  body header #nav-main .container #top-nav #call-text {
+    display: none;
+  }
+  /* line 668, sass/sample.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right {
+    top: 1rem;
+    text-decoration: none;
+  }
+  /* line 671, sass/sample.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgba(0, 178, 115, 0.81);
+    padding: 10px 10px 10px 12px;
+    color: #ffffff;
+  }
+  /* line 680, sass/sample.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right i:hover {
+    background-color: rgba(35, 178, 203, 0.8);
+    transition: 0.7s ease-out;
+  }
+  /* line 687, sass/sample.scss */
+  body header #nav-main .container .navbar-brand {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+  /* line 691, sass/sample.scss */
+  body header #nav-main .container .navbar-brand img {
+    height: auto;
+    width: 150px;
+  }
+  /* line 698, sass/sample.scss */
+  body header #nav-main .container #containerNavbar .navbar-nav .separator-border {
+    border-right: none;
+  }
+  /* line 707, sass/sample.scss */
+  body #myCarousel {
+    /* Since positioning the image, we need to help out the caption */
+    /* Declare heights because of positioning of img element */
+  }
+  /* line 708, sass/sample.scss */
+  body #myCarousel .carousel {
+    margin-bottom: 2rem;
+  }
+  /* line 712, sass/sample.scss */
+  body #myCarousel .carousel-caption {
+    font-size: 1em;
+    z-index: 10;
+    bottom: 2rem;
+  }
+  /* line 716, sass/sample.scss */
+  body #myCarousel .carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* line 719, sass/sample.scss */
+  body #myCarousel .carousel-caption a h2 {
+    font: 500 3em 'Poppins';
+    margin: -1rem 0;
+  }
+  /* line 723, sass/sample.scss */
+  body #myCarousel .carousel-caption a h3 {
+    font: 500 2em 'Poppins';
+  }
+  /* line 727, sass/sample.scss */
+  body #myCarousel .carousel-caption a:hover {
+    color: #d8ffff;
+    transition: 0.2s;
+  }
+  /* line 732, sass/sample.scss */
+  body #myCarousel .carousel-subtext {
+    font-size: 1em;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  /* line 739, sass/sample.scss */
+  body #myCarousel .carousel-item {
+    height: 40rem;
+  }
+  /* line 742, sass/sample.scss */
+  body #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+  }
+  /* line 752, sass/sample.scss */
+  body #content-container .container {
+    width: 100%;
+  }
+  /* line 758, sass/sample.scss */
+  body #projects-container .image {
+    min-height: 400px;
+  }
+  /* line 761, sass/sample.scss */
+  body #projects-container .overlay-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+  }
+  /* line 769, sass/sample.scss */
+  body #projects-container .overlay-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+  }
+  /* line 777, sass/sample.scss */
+  body #projects-container .bg-blue {
+    background-color: rgba(35, 178, 203, 0.8);
+  }
+  /* line 780, sass/sample.scss */
+  body #projects-container .bg-orange {
+    background-color: rgba(244, 82, 44, 0.81);
+  }
+  /* line 783, sass/sample.scss */
+  body #projects-container .bg-green {
+    background-color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 786, sass/sample.scss */
+  body #projects-container .text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  /* line 794, sass/sample.scss */
+  body #projects-container .text h3 {
+    white-space: nowrap;
+    font-size: 1.5em;
+    line-height: 0.5em;
+    font-weight: 700;
+  }
+  /* line 800, sass/sample.scss */
+  body #projects-container .text .project-desc {
+    margin-top: 0.5rem;
+  }
+  /* line 803, sass/sample.scss */
+  body #projects-container .text .project-btn {
+    margin-top: 1rem;
+  }
+  /* line 806, sass/sample.scss */
+  body #projects-container .text .btn {
+    background-color: #d3d3d3;
+    color: #2b2b2b;
+    border-radius: 0;
+  }
+  /* line 811, sass/sample.scss */
+  body #projects-container .text .btn:hover {
+    background-color: #7f7f7f;
+  }
+  /* line 818, sass/sample.scss */
+  body #blog-container .container {
+    width: 100%;
+  }
+  /* line 820, sass/sample.scss */
+  body #blog-container .container #main-post {
+    margin: 3em 0;
+  }
+  /* line 825, sass/sample.scss */
+  body #blog-container .container .row .col-md-7 h2 {
+    color: #2b2b2b;
+    font: 500 2em 'Poppins';
+  }
+  /* line 829, sass/sample.scss */
+  body #blog-container .container .row .col-md-7 p {
+    font-size: 0.75em;
+  }
+  /* line 832, sass/sample.scss */
+  body #blog-container .container .row .col-md-7 .blog-author {
+    vertical-align: top;
+    color: rgba(0, 178, 115, 0.81);
+    margin-top: 0.75rem;
+    font: 500 1em 'Poppins';
+  }
+  /* line 837, sass/sample.scss */
+  body #blog-container .container .row .col-md-7 .blog-author a {
+    text-decoration: none;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 841, sass/sample.scss */
+  body #blog-container .container .row .col-md-7 .blog-author a:hover {
+    color: #008853;
+  }
+  /* line 845, sass/sample.scss */
+  body #blog-container .container .row .col-md-7 .btn {
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 178, 115, 0.81);
+    padding: 0.5rem;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 852, sass/sample.scss */
+  body #blog-container .container .row .col-md-7 .btn:hover {
+    background-color: rgba(0, 178, 115, 0.81);
+    color: #ffffff;
+  }
+  /* line 858, sass/sample.scss */
+  body #blog-container .container .row .col-md-4 h2 {
+    color: #2b2b2b;
+    font: 500 2em 'Poppins';
+    margin: 0.1rem 0;
+  }
+  /* line 863, sass/sample.scss */
+  body #blog-container .container .row .col-md-4 p {
+    font-size: 0.75em;
+  }
+  /* line 875, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author img {
+    height: 100px;
+    width: 100px;
+  }
+  /* line 883, sass/sample.scss */
+  body #testimonials #testimonial-carousel .carousel-item .testimony-author h3 {
+    font: 500 1.25em 'Poppins';
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* line 893, sass/sample.scss */
+  body .container {
+    width: 100%;
+  }
+  /* line 896, sass/sample.scss */
+  body #myCarousel {
+    /* Since positioning the image, we need to help out the caption */
+    /* Declare heights because of positioning of img element */
+  }
+  /* line 897, sass/sample.scss */
+  body #myCarousel .carousel {
+    margin-bottom: 2rem;
+  }
+  /* line 901, sass/sample.scss */
+  body #myCarousel .carousel-caption {
+    margin: 0 auto;
+    font-size: 1em;
+    z-index: 10;
+    bottom: 2rem;
+  }
+  /* line 906, sass/sample.scss */
+  body #myCarousel .carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* line 909, sass/sample.scss */
+  body #myCarousel .carousel-caption a h2 {
+    font: 500 3em 'Poppins';
+    margin: -1rem 0;
+  }
+  /* line 913, sass/sample.scss */
+  body #myCarousel .carousel-caption a h3 {
+    font: 500 2em 'Poppins';
+  }
+  /* line 917, sass/sample.scss */
+  body #myCarousel .carousel-caption a:hover {
+    color: #d8ffff;
+    transition: 0.2s;
+  }
+  /* line 921, sass/sample.scss */
+  body #myCarousel .carousel-caption p {
+    font-size: 0.75em;
+  }
+  /* line 925, sass/sample.scss */
+  body #myCarousel .carousel-subtext {
+    font-size: 1em;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  /* line 932, sass/sample.scss */
+  body #myCarousel .carousel-item {
+    height: 40rem;
+  }
+  /* line 935, sass/sample.scss */
+  body #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+  }
+  /* line 943, sass/sample.scss */
+  body #myCarousel .page-btn .btn {
+    margin: 0 0.25rem;
+    font-size: 1.3em;
+    background-color: rgba(0, 178, 115, 0.81);
+    opacity: 0.9;
+    color: #ffffff;
+    padding: 1rem 0.75rem;
+  }
+  /* line 953, sass/sample.scss */
+  body #myCarousel .page-btn2 .btn {
+    margin: 0 0.25rem;
+    font-size: 1.3em;
+    background-color: #ffffff;
+    opacity: 0.9;
+    color: rgba(0, 178, 115, 0.81);
+    padding: 1rem 0.75rem;
+  }
+  /* line 963, sass/sample.scss */
+  body #myCarousel .page-btn:hover .btn {
+    background-color: #008853;
+  }
+  /* line 968, sass/sample.scss */
+  body #myCarousel .page-btn2:hover .btn {
+    background-color: #d3d3d3;
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 979, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author img {
+    height: 80px;
+    width: 80px;
+  }
+  /* line 984, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .center {
+    top: 20%;
+  }
+  /* line 987, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .bottom {
+    left: 46%;
+  }
+  /* line 990, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .speech-bubble {
+    font-size: 1.25em;
+  }
+  /* line 996, sass/sample.scss */
+  body #testimonials #testimonial-carousel .carousel-item .testimony-author h3 {
+    font: 500 1em 'Poppins';
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 1009, sass/sample.scss */
+  body #content-container .container .jumbotron h2 {
+    font-size: 2em;
+  }
+  /* line 1012, sass/sample.scss */
+  body #content-container .container .jumbotron p {
+    font-size: 1em;
+  }
+  /* line 1022, sass/sample.scss */
+  body header #nav-main div div .navbar-nav {
+    font: 500 1.25rem 'Poppins';
+  }
+  /* line 1027, sass/sample.scss */
+  body header #nav-main .navbar-toggler {
+    top: 0.75rem;
+  }
+  /* line 1030, sass/sample.scss */
+  body header #nav-main .container {
+    width: 100%;
+    margin: 0;
+  }
+  /* line 1034, sass/sample.scss */
+  body header #nav-main .container .navbar-brand img {
+    width: 100px;
+  }
+  /* line 1039, sass/sample.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right {
+    top: 0.50rem;
+  }
+  /* line 1046, sass/sample.scss */
+  body #myCarousel {
+    /* Since positioning the image, we need to help out the caption */
+    /* Declare heights because of positioning of img element */
+  }
+  /* line 1047, sass/sample.scss */
+  body #myCarousel .carousel {
+    margin-bottom: 2rem;
+  }
+  /* line 1051, sass/sample.scss */
+  body #myCarousel .carousel-caption {
+    margin: 0 auto;
+    font-size: 1em;
+    z-index: 10;
+    bottom: 1rem;
+  }
+  /* line 1056, sass/sample.scss */
+  body #myCarousel .carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* line 1059, sass/sample.scss */
+  body #myCarousel .carousel-caption a h2 {
+    font: 500 2em 'Poppins';
+    margin: -1rem 0;
+  }
+  /* line 1063, sass/sample.scss */
+  body #myCarousel .carousel-caption a h3 {
+    font: 500 1.5em 'Poppins';
+  }
+  /* line 1067, sass/sample.scss */
+  body #myCarousel .carousel-caption a:hover {
+    color: #d8ffff;
+    transition: 0.2s;
+  }
+  /* line 1071, sass/sample.scss */
+  body #myCarousel .carousel-caption p {
+    font-size: 0.75em;
+  }
+  /* line 1075, sass/sample.scss */
+  body #myCarousel .carousel-subtext {
+    font-size: 1em;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  /* line 1082, sass/sample.scss */
+  body #myCarousel .carousel-item {
+    height: 40rem;
+  }
+  /* line 1085, sass/sample.scss */
+  body #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+  }
+  /* line 1093, sass/sample.scss */
+  body #myCarousel .page-btn .btn {
+    margin: 0.5rem 0.25rem;
+    font-size: 1em;
+    background-color: rgba(0, 178, 115, 0.81);
+    opacity: 0.9;
+    color: #ffffff;
+    padding: 1rem 0.5rem;
+  }
+  /* line 1103, sass/sample.scss */
+  body #myCarousel .page-btn2 .btn {
+    margin: 0.5rem 0.25rem;
+    font-size: 1em;
+    background-color: #ffffff;
+    opacity: 0.9;
+    color: rgba(0, 178, 115, 0.81);
+    padding: 1rem 0.5rem;
+  }
+  /* line 1113, sass/sample.scss */
+  body #myCarousel .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+  }
+  /* line 1117, sass/sample.scss */
+  body #myCarousel .carousel-control-prev-icon {
+    height: 50px;
+    width: 50px;
+  }
+  /* line 1126, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author {
+    bottom: -21rem;
+  }
+  /* line 1128, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author img {
+    height: 60px;
+    width: 60px;
+  }
+  /* line 1133, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .center {
+    top: 0;
+  }
+  /* line 1136, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .speech-bubble {
+    font-size: 1em;
+  }
+  /* line 1140, sass/sample.scss */
+  body #testimonials #testimonial-carousel .carousel-item {
+    height: 350px;
+  }
+  /* line 1143, sass/sample.scss */
+  body #testimonials #testimonial-carousel .carousel-item .testimony-author h3 {
+    font: 500 1em 'Poppins';
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 1156, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .col-3 {
+    max-width: 7rem;
+  }
+  /* line 1159, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .text-right {
+    display: none;
+  }
+  /* line 1162, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author {
+    bottom: -27rem;
+  }
+  /* line 1164, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .testimony-author img {
+    height: 60px;
+    width: 60px;
+  }
+  /* line 1169, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .center {
+    top: 0;
+  }
+  /* line 1172, sass/sample.scss */
+  body #testimonials #testimonial-carousel .fill .speech-bubble {
+    font-size: 1em;
+  }
+  /* line 1176, sass/sample.scss */
+  body #testimonials #testimonial-carousel .carousel-item {
+    height: 450px;
+  }
+  /* line 1179, sass/sample.scss */
+  body #testimonials #testimonial-carousel .carousel-item .testimony-author h3 {
+    font: 500 0.75em 'Poppins';
+  }
+  /* line 1186, sass/sample.scss */
+  body .division-title, body #content-container .container .jumbotron h2, body #blog-container h2, body #testimonials h2 {
+    text-align: center;
+    font: 800 2em 'Raleway';
+    color: rgba(0, 178, 115, 0.81);
+  }
+  /* line 1193, sass/sample.scss */
+  body header #nav-main .container {
+    width: 100%;
+  }
+  /* line 1196, sass/sample.scss */
+  body header #nav-main .container #top-nav #call-text {
+    display: none;
+  }
+  /* line 1199, sass/sample.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right {
+    top: 0.25rem;
+    text-decoration: none;
+  }
+  /* line 1202, sass/sample.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgba(0, 178, 115, 0.81);
+    padding: 10px 10px 10px 12px;
+    color: #ffffff;
+  }
+  /* line 1211, sass/sample.scss */
+  body header #nav-main .container #top-nav .navbar-toggler-right i:hover {
+    background-color: rgba(35, 178, 203, 0.8);
+    transition: 0.7s ease-out;
+  }
+  /* line 1216, sass/sample.scss */
+  body header #nav-main .container #top-nav .email-navbar-toggler-right {
+    top: 50%;
+    text-decoration: none;
+  }
+  /* line 1219, sass/sample.scss */
+  body header #nav-main .container #top-nav .email-navbar-toggler-right i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgba(0, 178, 115, 0.81);
+    padding: 10px 10px 10px 12px;
+    color: #ffffff;
+  }
+  /* line 1228, sass/sample.scss */
+  body header #nav-main .container #top-nav .email-navbar-toggler-right i:hover {
+    background-color: rgba(35, 178, 203, 0.8);
+    transition: 0.7s ease-out;
+  }
+  /* line 1235, sass/sample.scss */
+  body header #nav-main .container .navbar-brand {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+  /* line 1239, sass/sample.scss */
+  body header #nav-main .container .navbar-brand img {
+    height: auto;
+    width: 100px;
+  }
+  /* line 1244, sass/sample.scss */
+  body header #nav-main .container .navbar-toggler {
+    top: 0.6rem;
+  }
+  /* line 1250, sass/sample.scss */
+  body #myCarousel {
+    /* Since positioning the image, we need to help out the caption */
+    /* Declare heights because of positioning of img element */
+  }
+  /* line 1251, sass/sample.scss */
+  body #myCarousel .carousel {
+    margin-bottom: 2rem;
+  }
+  /* line 1255, sass/sample.scss */
+  body #myCarousel .carousel-caption {
+    margin: 0 auto;
+    font-size: 1em;
+    z-index: 10;
+    bottom: 1rem;
+  }
+  /* line 1260, sass/sample.scss */
+  body #myCarousel .carousel-caption a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  /* line 1263, sass/sample.scss */
+  body #myCarousel .carousel-caption a h2 {
+    font: 500 1.5em 'Poppins';
+    margin: -0.5rem 0;
+  }
+  /* line 1267, sass/sample.scss */
+  body #myCarousel .carousel-caption a h3 {
+    font: 500 1.25em 'Poppins';
+  }
+  /* line 1271, sass/sample.scss */
+  body #myCarousel .carousel-caption a:hover {
+    color: #d8ffff;
+    transition: 0.2s;
+  }
+  /* line 1275, sass/sample.scss */
+  body #myCarousel .carousel-caption p {
+    font-size: 0.75em;
+  }
+  /* line 1279, sass/sample.scss */
+  body #myCarousel .carousel-subtext {
+    font-size: 1em;
+    margin: 1rem auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  /* line 1286, sass/sample.scss */
+  body #myCarousel .carousel-item {
+    height: 40rem;
+  }
+  /* line 1289, sass/sample.scss */
+  body #myCarousel .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 40rem;
+  }
+  /* line 1297, sass/sample.scss */
+  body #myCarousel .page-btn .btn {
+    margin: 0.5rem 0.25rem;
+    font-size: 1em;
+    background-color: rgba(0, 178, 115, 0.81);
+    opacity: 0.9;
+    color: #ffffff;
+    padding: 1rem 0.5rem;
+  }
+  /* line 1307, sass/sample.scss */
+  body #myCarousel .page-btn2 .btn {
+    margin: 0.5rem 0.25rem;
+    font-size: 1em;
+    background-color: #ffffff;
+    opacity: 0.9;
+    color: rgba(0, 178, 115, 0.81);
+    padding: 1rem 0.5rem;
+  }
+  /* line 1317, sass/sample.scss */
+  body #myCarousel .carousel-control-next-icon {
+    height: 35px;
+    width: 35px;
+  }
+  /* line 1321, sass/sample.scss */
+  body #myCarousel .carousel-control-prev-icon {
+    height: 35px;
+    width: 35px;
+  }
+}

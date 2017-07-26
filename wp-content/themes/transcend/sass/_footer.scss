@@ -1,0 +1,33 @@
+body{
+  footer{
+    padding: 2rem 0 4rem 0;
+    background-color: $white;
+    .col-md-6{
+      .footer-logo{
+        height: auto;
+        width: 200px;
+        margin: 2rem 0;
+      }
+    }
+
+    .col-md-3{
+      h3{
+        font: 300 2em 'Poppins';
+        color: $green;
+        margin: 2rem 0;
+      }
+      ul{
+        li{
+          a{
+            text-decoration: none;
+            color: $gray;
+            font: 500 1.5em 'Poppins';
+          }
+          a:hover{
+            color: $dark-green;
+          }
+        }
+      }
+    }
+  }
+}

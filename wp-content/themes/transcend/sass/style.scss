@@ -1,0 +1,54 @@
+/*
+Theme Name: Transcend
+Theme URI: http://www.hoolma.com
+Author: Team Hoolma
+Author URI: http://www.hoolma.com/
+Description: Blog, CRM ready, real estate, mobile responsive
+Version: 1.0
+Tags: green, black, orange, mobile responsive, crm ready
+Text Domain: transcend
+
+The theme is created by Hoolma Tech Solutions,  an online marketing agency based in Cebu.
+*/
+
+@import "compass/reset";
+
+$black: #2b2b2b;
+$gray: #7f7f7f;
+$dark-gray: #787878;
+$light-gray: #d3d3d3;
+$orange: rgba(244, 82, 44, 0.81);
+$green: rgba(0, 178, 115, 0.81);
+$dark-green: #008853;
+$blue: rgba(35, 178, 203, 0.8);
+$white: #ffffff;
+$off-white: #d8ffff;
+
+@import 'header';
+@import 'footer';
+@import 'index';
+@import 'blog';
+@import 'projects';
+@import 'about';
+@import 'responsive';
+
+/*@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/poppins-regular-webfont.woff2') format('woff2'),
+  url('fonts/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsbold';
+  src: url('fonts/poppins-bold-webfont.woff2') format('woff2'),
+  url('fonts/poppins-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}*/
+
+body {
+  font: 300 1em 'Poppins';
+}

@@ -1,0 +1,85 @@
+body{
+  header {
+
+    #nav-main {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      #top-nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        .btn{
+          width: 150px;
+          height: 40px;
+          border-radius: 50px !important;
+          display: inline-block;
+          text-decoration: none;
+          background-color: $green;
+          border: none;
+          div{
+            text-align: center;
+            margin-top: -6px;
+            display: inline-block;
+          }
+          .carousel-control-next-icon{
+            margin: 0 -18px -10px 9px;
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            background-image: url(img/arrow-next-icon.png);
+          }
+        }
+        .btn:hover{
+          background-color: $dark-green;
+        }
+        #call-text {
+          margin: 0 2rem;
+          display: inline-block;
+          font: 600 1.25em 'Poppins';
+          a{
+            text-decoration: none;
+            color: $green;
+          }
+          a:hover{
+            color: $dark-green;
+          }
+        }
+        i {
+          display: none;
+        }
+      }
+      .navbar-toggler {
+        top: 1.25rem;
+      }
+      .navbar-brand {
+        img {
+          height: auto;
+          width: 200px;
+        }
+      }
+      background-color: rgba(255, 255, 255, 0.9);
+      div {
+        div {
+          .navbar-nav {
+            margin-top: 20px;
+            font: 500 1.15rem 'Poppins';
+            .separator-border {
+              border-right: 1px solid $black;
+            }
+            .nav-item {
+              padding: 0 1.5em;
+              a {
+                color: $black;
+              }
+              a:hover {
+                color: $green;
+              }
+              .nav-link {
+                padding: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

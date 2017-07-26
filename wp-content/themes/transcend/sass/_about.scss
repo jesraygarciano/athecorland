@@ -1,0 +1,433 @@
+#about-hero{
+  padding-top: 15rem;
+  background-image: url(img/profile_first_photo.jpg);
+  height: 35rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto ;
+  .container{
+    .jumbotron {
+      padding: 2rem;
+      text-align: center;
+      background-color: transparent;
+      h2{
+        font: 700 3rem 'Raleway';
+        color: $white;
+        span{
+          color: $green;
+        }
+      }
+      #about-sub-tt{
+        padding-top: 2.5rem;
+      #tt-left{
+        text-align: left;
+        padding-top: 1.5rem;
+        color: #ffffff;
+        text-transform: uppercase;
+        font: 500 2em 'Raleway', sans-serif;
+        }
+      #tt-right{
+          padding-top: 2.5rem;
+          color: #ffffff;
+          text-transform: uppercase;
+          font: 500 2em 'Raleway', sans-serif;
+      }
+      }
+    }
+  }
+}
+#about-container{
+  .container-fluid{
+    .container {
+      padding: 2rem;
+      background-color: transparent;
+      h2{
+        font: 800 2em 'Raleway';
+        color: $dark-green;
+      }
+      hr{
+        margin: 1rem 0 2rem 0;
+        width: 100px;
+        height: 2px;
+        background-color: $gray;
+      }
+      .about-p-content{
+        margin-top: 1rem;
+        line-height: 2rem;
+      }
+      .about-p-content-2{
+        margin-top: 1rem;
+        line-height: 2rem;
+      }
+    }
+  }
+}
+#about-mission-vision{
+  background-image: url(img/mission-vision.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto ;
+  .container{
+    .row{
+        .col-md-5{
+          margin: 2rem;
+          background-color: rgba(255,255,255,.8);
+          h2{
+            margin-top: 1rem;
+            font: 700 2.5em 'Raleway';
+            color: $dark-green;
+          }
+          hr{
+            margin: .5rem auto 0 auto;
+            width: 50px;
+            height: 1px;
+            background-color: $green;
+          }
+          p{
+            font: 500 1em 'Raleway';
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            text-align: left;
+            line-height: 2rem;
+          }
+        }
+    }
+  }
+}
+#about-core-val{
+  .container{
+    h2{
+      margin-top: 1.5rem;
+      font: 800 2em 'Raleway';
+      color: $dark-green;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    hr{
+      margin: .5rem auto 2rem auto;
+      width: 70px;
+      height: 2px;
+      background-color: $gray;
+    }
+    .row{
+      .col-md-6{
+        h2{
+          font: 600 1.5em 'Raleway';
+          color: $gray;
+        }
+        p{
+          padding: 1rem 0;
+          color: $gray;
+        }
+      }
+    }
+  }
+}
+/*------------------------ START OF TESTIMONIAL -------------------------*/
+#about-testimonials{
+  text-align: center;
+  background-color: $green;
+  .container{
+    h2{
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      font: 800 2em 'Raleway';
+      color: white;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    hr{
+      margin: .5rem auto 2rem auto;
+      width: 70px;
+      height: 2px;
+      background-color: #e2e2e2;
+    }
+    p{
+      color: white;
+      font: normal 1em 'Poppins';
+    }
+  }
+  #testimonial-carousel{
+    .carousel{
+      margin-bottom: 4rem;
+    }
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      z-index: 10;
+      bottom: 2rem;
+      a {
+        text-decoration: none;
+        color: $white;
+        h2 {
+          font: 500 5em 'Poppins';
+          margin: -2rem 0;
+        }
+        h3 {
+          font: 500 3.5em 'Poppins';
+        }
+      }
+      a:hover {
+        color: $off-white;
+        transition: 0.2s;
+      }
+    }
+    .carousel-subtext {
+      margin: 1rem auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem;
+    }
+    /* Declare heights because of positioning of img element */
+    .carousel-item {
+      height: 27rem;
+      background-color: #777;
+    }
+    .carousel-item > img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 27rem;
+      opacity: 0.1;
+    }
+    .carousel-control-next-icon{
+      height: 80px;
+      width: 80px;
+      background-image: url(img/next-control.png);
+    }
+    .carousel-control-prev-icon{
+      height: 80px;
+      width: 80px;
+      background-image: url(img/prev-control.png);
+    }
+  }
+  h2{
+    margin-top: 2rem;
+    @extend .division-title;
+  }
+  p{
+    font-size: 1em;
+    margin-bottom: 2rem;
+  }
+  .fill{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.6);
+    .testimony-author{
+      position: absolute;
+      width: 80%;
+      bottom: -25rem;
+      left: 15%;
+      .text-right .text-left{
+        position: relative;
+      }
+      .center {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        font-size: 1rem;
+      }
+      h3{
+        font: 500 2em 'Poppins';
+        line-height: 1em;
+      }
+      p{
+        margin-bottom: 0;
+        color: #000000;
+      }
+      img{
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 170px;
+        height: 170px;
+      }
+    }
+    .speech-bubble {
+      background-color: $white;
+      border: 1px solid $green;
+      border-radius: 0;
+      width: 70%;
+      text-align: center;
+      padding: 20px;
+      position: absolute;
+      font-style: italic;
+      font-size: 1.25em;
+      color: $gray;
+      left: 15%;
+      top: 2rem;
+    }
+
+    .speech-bubble .arrow {
+      border-style: solid;
+      position: absolute;
+    }
+
+    .bottom {
+      border-color: $green transparent transparent transparent;
+      border-width: 25px 25px 0 25px;
+      bottom: -25px;
+      left: 48%;
+    }
+
+    .bottom:after {
+      border-color: $white transparent transparent transparent;
+      border-style: solid;
+      border-width: 24px 24px 0 24px;
+      bottom: 1px;
+      content: "";
+      position: absolute;
+      left: -24px;
+    }
+  }
+}
+/*------------------------ END OF TESTIMONIAL -------------------------*/
+
+/*------------------------ START ABOUT/ CONTACT-US -------------------------*/
+#about-contact-container{
+  background-color: $green;
+  padding-top: 1.5rem;
+  .about-cont{
+    .row{
+      .col-md-5{
+        hr{
+          margin: 2.5rem auto 0 auto;
+          width: 30rem;
+          height: 3px;
+          background-color: #e2e2e2;
+        }
+        .cont-img{
+          width: 100%;
+        }
+      }
+    }
+    h2{
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      font: 800 2em 'Raleway';
+      color: white;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    hr{
+      margin: .5rem auto 2rem auto;
+      width: 70px;
+      height: 2px;
+      background-color: #e2e2e2;
+    }
+    p{
+      text-align: center;
+      color: white;
+      font: normal 1.3em 'Poppins';
+      padding-bottom: 2rem;
+    }
+  }
+  .container{
+    .row{
+      .col-md-6{
+        h2{
+          color: $dark-gray;
+          font: 800 1.5rem 'Poppins';
+          margin: 0.5rem 0;
+          text-transform: uppercase;
+          border-bottom: 3px solid $dark-gray;
+        }
+        .cont-info{
+          display: none;
+        }
+      }
+      #cont-left-section{
+        margin-top: -2.5rem;
+        .container{
+          padding: 0;
+          .cont-post{
+            margin: 2rem 0;
+          }
+          .row{
+            .col-md-9{
+              padding: 1.5rem;
+              p{
+                font: 400 1em "Poppins", sans-serif;
+                color: $gray;
+              }
+            }
+          }
+        }
+        .cont-img{
+          height: auto;
+        }
+      }
+      #contact-right-section{
+        input[type=text], input[type=number] {
+          padding-top: 2.2rem;
+          width:100%;
+          border: 0;
+          outline: 0;
+          background: transparent;
+          border-bottom: 1px solid $gray;
+        }
+        input:focus{
+          border-bottom: 1px solid $green;
+        }
+        textarea:focus{
+          border: 1px solid $green;
+        }
+        *::-webkit-input-placeholder {
+          color: $gray;
+          font: 300 1rem "Raleway", sans-serif;
+        }
+        *:-moz-placeholder {
+          color: $gray;
+          font: 300 1rem "Raleway", sans-serif;
+        }
+        *::-moz-placeholder {
+          color: $gray;
+          font: 300 1rem "Raleway", sans-serif;
+        }
+        *:-ms-input-placeholder {
+          color: $gray;
+          font: 300 1rem "Raleway", sans-serif;
+        }
+        #subInterest{
+          padding:2rem 0 1rem 0;
+        }
+        #sc-check{
+          padding-right: 6rem;
+          .cont-checklist:focus{
+            background-color: $dark-green;
+          }
+        }
+        #cont-inquiry{
+          padding: 1rem 0 .5rem 0;
+        }
+        #cont-newsletter{
+          padding: 1rem 0 1rem 0;
+        }
+        #cont-submit{
+          .btn{
+            cursor: pointer;
+            margin: 0.5rem 5rem;
+            font-size: 1em;
+            background-color: $green;
+            opacity: 0.9;
+            color: $white;
+          }
+          .btn:hover{
+            cursor: pointer;
+            margin: 0.5rem 5rem;
+            font-size: 1em;
+            background-color: $dark-green;
+            opacity: 0.9;
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+  .blog-img{
+    height: auto;
+    width: 100%;
+  }
+}
+/*------------------------ END ABOUT/ CONTACT-US -------------------------*/
